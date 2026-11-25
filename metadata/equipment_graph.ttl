@@ -30,71 +30,55 @@ ex:SIG-004 a ex:IndustrialSignal ;
     ex:generatedBy ex:SEN-004 ;
     ex:measurementUnit "Celsius" .
 
-ex:CELL-002 a ex:EquipmentAsset ;
-    rdfs:label "Hull Fabrication Cell" ;
-    dcterms:identifier "CELL-002" ;
-    ex:equipmentType "Production Cell" ;
-    ex:locatedAt ex:FAC-001 ;
-    ex:partOf ex:FAC-001 .
-
-ex:EQ-002 a ex:EquipmentAsset ;
+ex:EQ-002 a ex:Machine ;
     rdfs:label "Propulsion Assembly Robot" ;
     dcterms:identifier "EQ-002" ;
-    ex:equipmentType "Machine" ;
-    ex:locatedAt ex:FAC-001 ;
+    ex:locatedAt ex:CELL-001 ;
     ex:partOf ex:CELL-001 .
 
-ex:EQ-003 a ex:EquipmentAsset ;
+ex:EQ-003 a ex:Machine ;
     rdfs:label "Hull Welding Robot" ;
     dcterms:identifier "EQ-003" ;
-    ex:equipmentType "Machine" ;
-    ex:locatedAt ex:FAC-001 ;
+    ex:locatedAt ex:CELL-002 ;
     ex:partOf ex:CELL-002 .
 
-ex:SEN-001 a ex:EquipmentAsset ;
+ex:SEN-001 a ex:Sensor ;
     rdfs:label "Motor Temperature Sensor" ;
     dcterms:identifier "SEN-001" ;
-    ex:equipmentType "Sensor" ;
-    ex:locatedAt ex:FAC-001 ;
     ex:partOf ex:EQ-001 .
 
-ex:SEN-002 a ex:EquipmentAsset ;
+ex:SEN-002 a ex:Sensor ;
     rdfs:label "Motor Vibration Sensor" ;
     dcterms:identifier "SEN-002" ;
-    ex:equipmentType "Sensor" ;
-    ex:locatedAt ex:FAC-001 ;
     ex:partOf ex:EQ-001 .
 
-ex:SEN-003 a ex:EquipmentAsset ;
+ex:SEN-003 a ex:Sensor ;
     rdfs:label "Robot Position Sensor" ;
     dcterms:identifier "SEN-003" ;
-    ex:equipmentType "Sensor" ;
-    ex:locatedAt ex:FAC-001 ;
     ex:partOf ex:EQ-002 .
 
-ex:SEN-004 a ex:EquipmentAsset ;
+ex:SEN-004 a ex:Sensor ;
     rdfs:label "Welding Temperature Sensor" ;
     dcterms:identifier "SEN-004" ;
-    ex:equipmentType "Sensor" ;
-    ex:locatedAt ex:FAC-001 ;
     ex:partOf ex:EQ-003 .
 
-ex:CELL-001 a ex:EquipmentAsset ;
-    rdfs:label "Propulsion Assembly Cell" ;
-    dcterms:identifier "CELL-001" ;
-    ex:equipmentType "Production Cell" ;
-    ex:locatedAt ex:FAC-001 ;
+ex:CELL-002 a ex:ProductionCell ;
+    rdfs:label "Hull Fabrication Cell" ;
+    dcterms:identifier "CELL-002" ;
     ex:partOf ex:FAC-001 .
 
-ex:EQ-001 a ex:EquipmentAsset ;
+ex:EQ-001 a ex:Machine ;
     rdfs:label "Motor Testing Station" ;
     dcterms:identifier "EQ-001" ;
-    ex:equipmentType "Machine" ;
-    ex:locatedAt ex:FAC-001 ;
+    ex:locatedAt ex:CELL-001 ;
     ex:partOf ex:CELL-001 .
 
-ex:FAC-001 a ex:EquipmentAsset ;
+ex:FAC-001 a ex:Facility ;
     rdfs:label "Maritime Assembly Facility" ;
-    dcterms:identifier "FAC-001" ;
-    ex:equipmentType "Facility" .
+    dcterms:identifier "FAC-001" .
+
+ex:CELL-001 a ex:ProductionCell ;
+    rdfs:label "Propulsion Assembly Cell" ;
+    dcterms:identifier "CELL-001" ;
+    ex:partOf ex:FAC-001 .
 

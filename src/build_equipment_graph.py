@@ -1,3 +1,4 @@
+
 import csv
 from pathlib import Path
 
@@ -9,6 +10,13 @@ DATA_DIR = BASE_DIR / "data"
 OUTPUT_PATH = BASE_DIR / "metadata" / "equipment_graph.ttl"
 
 EX = Namespace("https://example.org/maritime/")
+
+EQUIPMENT_CLASSES = {
+    "Facility": EX.Facility,
+    "Production Cell": EX.ProductionCell,
+    "Machine": EX.Machine,
+    "Sensor": EX.Sensor,
+}
 
 graph = Graph()
 graph.bind("ex", EX)
@@ -31,10 +39,16 @@ for item in equipment:
     equipment_id = item["equipment_id"]
     uri = EX[equipment_id]
 
-    graph.add((uri, RDF.type, EX.EquipmentAsset))
+    equipment_type = item["equipment_type"].strip()
+
+    if equipment_type not in EQUIPMENT_CLASSES:
+        raise ValueError(
+            f"Unknown equipment type: {equipment_type}"
+        )
+
+    graph.add((uri, RDF.type, EQUIPMENT_CLASSES[equipment_type]))
     graph.add((uri, DCTERMS.identifier, Literal(equipment_id)))
     graph.add((uri, RDFS.label, Literal(item["name"])))
-    graph.add((uri, EX.equipmentType, Literal(item["equipment_type"])))
 
     parent_id = item["parent_id"].strip()
 
@@ -46,6 +60,9 @@ for item in equipment:
 
         graph.add((uri, EX.partOf, EX[parent_id]))
 
+        if equipment_type == "Machine":
+            graph.add((uri, EX.locatedAt, EX[parent_id]))
+
     facility_id = item["facility_id"].strip()
 
     if facility_id:
@@ -54,7 +71,6 @@ for item in equipment:
                 f"Unknown facility {facility_id} for {equipment_id}"
             )
 
-        graph.add((uri, EX.locatedAt, EX[facility_id]))
 
 # Add industrial signals
 for signal in signals:

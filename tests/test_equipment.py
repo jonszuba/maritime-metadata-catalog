@@ -31,14 +31,25 @@ class TestEquipmentGraph(unittest.TestCase):
             encoding="utf-8"
         ) as file:
             cls.signals = list(csv.DictReader(file))
-
+    
     def test_all_equipment_in_graph(self):
+        expected_classes = {
+            "Facility": EX.Facility,
+            "Production Cell": EX.ProductionCell,
+            "Machine": EX.Machine,
+            "Sensor": EX.Sensor,
+        }
+
         for item in self.equipment:
             uri = EX[item["equipment_id"]]
+            expected_class = expected_classes[item["equipment_type"]]
+
             self.assertIn(
-                (uri, RDF.type, EX.EquipmentAsset),
+                (uri, RDF.type, expected_class),
                 self.graph
             )
+
+            
 
     def test_all_signals_in_graph(self):
         for signal in self.signals:

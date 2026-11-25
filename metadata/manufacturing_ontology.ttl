@@ -1,10 +1,10 @@
-@prefix : <https://example.org/maritime/ontology#> .
+@prefix : <https://example.org/maritime/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://example.org/maritime/ontology#> .
+@base <https://example.org/maritime/> .
 
 <https://example.org/maritime/ontology> rdf:type owl:Ontology .
 
@@ -12,19 +12,19 @@
 #    Object Properties
 #################################################################
 
-###  https://example.org/maritime/ontology#generatedBy
+###  https://example.org/maritime/generatedBy
 :generatedBy rdf:type owl:ObjectProperty ;
              rdfs:domain :IndustrialSignal ;
              rdfs:range :Sensor .
 
 
-###  https://example.org/maritime/ontology#locatedAt
+###  https://example.org/maritime/locatedAt
 :locatedAt rdf:type owl:ObjectProperty ;
            rdfs:domain :Machine ;
            rdfs:range :ProductionCell .
 
 
-###  https://example.org/maritime/ontology#partOf
+###  https://example.org/maritime/partOf
 :partOf rdf:type owl:ObjectProperty ;
         rdfs:domain :PhysicalAsset ;
         rdfs:range :PhysicalAsset .
@@ -34,19 +34,19 @@
 #    Data properties
 #################################################################
 
-###  https://example.org/maritime/ontology#assetIdentifier
+###  https://example.org/maritime/assetIdentifier
 :assetIdentifier rdf:type owl:DatatypeProperty ;
                  rdfs:domain :PhysicalAsset ;
                  rdfs:range xsd:string .
 
 
-###  https://example.org/maritime/ontology#measurementUnit
+###  https://example.org/maritime/measurementUnit
 :measurementUnit rdf:type owl:DatatypeProperty ;
                  rdfs:domain :IndustrialSignal ;
                  rdfs:range xsd:string .
 
 
-###  https://example.org/maritime/ontology#signalIdentifier
+###  https://example.org/maritime/signalIdentifier
 :signalIdentifier rdf:type owl:DatatypeProperty ;
                   rdfs:domain :IndustrialSignal ;
                   rdfs:range xsd:string .
@@ -56,12 +56,12 @@
 #    Classes
 #################################################################
 
-###  https://example.org/maritime/ontology#Facility
+###  https://example.org/maritime/Facility
 :Facility rdf:type owl:Class ;
           rdfs:subClassOf :PhysicalAsset .
 
 
-###  https://example.org/maritime/ontology#IndustrialSignal
+###  https://example.org/maritime/IndustrialSignal
 :IndustrialSignal rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :generatedBy ;
@@ -70,7 +70,7 @@
                   owl:disjointWith :PhysicalAsset .
 
 
-###  https://example.org/maritime/ontology#Machine
+###  https://example.org/maritime/Machine
 :Machine rdf:type owl:Class ;
          rdfs:subClassOf :PhysicalAsset ,
                          [ rdf:type owl:Restriction ;
@@ -79,11 +79,11 @@
                          ] .
 
 
-###  https://example.org/maritime/ontology#PhysicalAsset
+###  https://example.org/maritime/PhysicalAsset
 :PhysicalAsset rdf:type owl:Class .
 
 
-###  https://example.org/maritime/ontology#ProductionCell
+###  https://example.org/maritime/ProductionCell
 :ProductionCell rdf:type owl:Class ;
                 rdfs:subClassOf :PhysicalAsset ,
                                 [ rdf:type owl:Restriction ;
@@ -92,7 +92,7 @@
                                 ] .
 
 
-###  https://example.org/maritime/ontology#Sensor
+###  https://example.org/maritime/Sensor
 :Sensor rdf:type owl:Class ;
         rdfs:subClassOf :PhysicalAsset ,
                         [ rdf:type owl:Restriction ;
