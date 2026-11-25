@@ -1,0 +1,45 @@
+
+{
+  "schema_name": "Maritime Component Metadata",
+  "version": "1.0",
+  "description": "Standardized metadata for fictional maritime manufacturing components",
+  "fields": {
+    "component_id": {
+      "type": "string",
+      "required": true,
+      "description": "Unique identifier for each component"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "Standardized component name"
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "Propulsion",
+        "Electrical",
+        "Structural",
+        "Navigation"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "required": true
+    },
+    "manufacturer": {
+      "type": "string",
+      "required": false
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "Active",
+        "Discontinued",
+        "Under Review"
+      ]
+    }
+  }
+}

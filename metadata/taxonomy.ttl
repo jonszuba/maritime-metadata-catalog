@@ -1,0 +1,78 @@
+@prefix ex: <https://example.org/maritime/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ex:Batteries a skos:Concept ;
+    skos:broader ex:Electrical ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Batteries" .
+
+ex:Brackets a skos:Concept ;
+    skos:broader ex:Structural ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Brackets" .
+
+ex:Controllers a skos:Concept ;
+    skos:broader ex:Electrical ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Controllers" .
+
+ex:Electric_Motors a skos:Concept ;
+    skos:broader ex:Propulsion ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Electric Motors" .
+
+ex:GPS_Systems a skos:Concept ;
+    skos:broader ex:Navigation ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "GPS Systems" .
+
+ex:Hull_Panels a skos:Concept ;
+    skos:broader ex:Structural ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Hull Panels" .
+
+ex:Propellers a skos:Concept ;
+    skos:broader ex:Propulsion ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Propellers" .
+
+ex:Sensors a skos:Concept ;
+    skos:broader ex:Navigation ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:prefLabel "Sensors" .
+
+ex:Electrical a skos:Concept ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:narrower ex:Batteries,
+        ex:Controllers ;
+    skos:prefLabel "Electrical" ;
+    skos:topConceptOf ex:MaritimeComponents .
+
+ex:Navigation a skos:Concept ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:narrower ex:GPS_Systems,
+        ex:Sensors ;
+    skos:prefLabel "Navigation" ;
+    skos:topConceptOf ex:MaritimeComponents .
+
+ex:Propulsion a skos:Concept ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:narrower ex:Electric_Motors,
+        ex:Propellers ;
+    skos:prefLabel "Propulsion" ;
+    skos:topConceptOf ex:MaritimeComponents .
+
+ex:Structural a skos:Concept ;
+    skos:inScheme ex:MaritimeComponents ;
+    skos:narrower ex:Brackets,
+        ex:Hull_Panels ;
+    skos:prefLabel "Structural" ;
+    skos:topConceptOf ex:MaritimeComponents .
+
+ex:MaritimeComponents a skos:ConceptScheme ;
+    skos:hasTopConcept ex:Electrical,
+        ex:Navigation,
+        ex:Propulsion,
+        ex:Structural ;
+    skos:prefLabel "Maritime Components" .
+

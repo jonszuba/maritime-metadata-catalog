@@ -1,0 +1,25 @@
+component_id,errors
+CMP-0050,Missing required field: status
+CMP-0075,Invalid taxonomy relationship: Controllers does not belong under Propulsion
+CMP-0100,Missing required field: status; Invalid taxonomy relationship: Brackets does not belong under Electrical
+CMP-0150,Missing required field: status; Invalid taxonomy relationship: Controllers does not belong under Propulsion
+CMP-0200,Missing required field: status; Invalid taxonomy relationship: GPS Systems does not belong under Electrical
+CMP-0250,Missing required field: status
+CMP-0300,Missing required field: status; Invalid taxonomy relationship: GPS Systems does not belong under Electrical
+CMP-0350,Missing required field: status
+CMP-0375,Invalid taxonomy relationship: Controllers does not belong under Propulsion
+CMP-0400,Missing required field: status; Invalid taxonomy relationship: Electric Motors does not belong under Electrical
+CMP-0450,Missing required field: status; Invalid taxonomy relationship: Brackets does not belong under Propulsion
+CMP-0500,Missing required field: status; Invalid taxonomy relationship: Propellers does not belong under Electrical
+CMP-0525,Invalid taxonomy relationship: Controllers does not belong under Propulsion
+CMP-0550,Missing required field: status
+CMP-0600,Missing required field: status; Invalid taxonomy relationship: Hull Panels does not belong under Electrical
+CMP-0650,Missing required field: status
+CMP-0675,Invalid taxonomy relationship: Sensors does not belong under Propulsion
+CMP-0700,Missing required field: status; Invalid taxonomy relationship: Sensors does not belong under Electrical
+CMP-0750,Missing required field: status
+CMP-0800,Missing required field: status; Invalid taxonomy relationship: Batteries does not belong under Navigation
+CMP-0850,Missing required field: status
+CMP-0900,Missing required field: status; Invalid taxonomy relationship: Sensors does not belong under Electrical
+CMP-0950,Missing required field: status
+CMP-1000,Missing required field: status; Invalid taxonomy relationship: Hull Panels does not belong under Electrical

@@ -1,0 +1,5 @@
+category,total_records,invalid_records,valid_records,failure_rate_percent
+Electrical,248,11,237,4.44
+Navigation,254,3,251,1.18
+Propulsion,256,9,247,3.52
+Structural,242,1,241,0.41

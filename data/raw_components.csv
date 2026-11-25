@@ -1,0 +1,1001 @@
+component_id,name,category,subcategory,manufacturer,status
+CMP-0001,High-Torque Motor Model 350,Propulsion,Electric Motors,NavTech,Active
+CMP-0002,Propulsion Motor Model 132,Propulsion,Electric Motors,Example Marine Systems,Active
+CMP-0003,Marine Battery Pack Model 716,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0004,Power Controller Model 559,Electrical,Controllers,Coastal Engineering,Active
+CMP-0005,Motor Controller Model 384,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0006,Composite Hull Panel Model 489,Structural,Hull Panels,Ocean Technologies,Discontinued
+CMP-0007,Mounting Bracket Model 847,Structural,Brackets,Harbor Systems,Under Review
+CMP-0008,Marine Propeller Model 665,Propulsion,Propellers,Coastal Engineering,Under Review
+CMP-0009,Aluminum Hull Panel Model 171,Structural,Hull Panels,Example Marine Systems,Under Review
+CMP-0010,Power Controller Model 975,Electrical,Controllers,NavTech,Active
+CMP-0011,Navigation Sensor Model 750,Navigation,Sensors,Bluewater Components,Active
+CMP-0012,Mounting Bracket Model 786,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0013,Auxiliary Drive Motor Model 267,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0014,Aluminum Hull Panel Model 432,Structural,Hull Panels,Example Marine Systems,Active
+CMP-0015,Variable Pitch Propeller Model 374,Propulsion,Propellers,Ocean Technologies,Active
+CMP-0016,Aluminum Hull Panel Model 611,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0017,GPS Navigation Module Model 242,Navigation,GPS Systems,NavTech,Under Review
+CMP-0018,Structural Bracket Model 508,Structural,Brackets,Bluewater Components,Active
+CMP-0019,Power Controller Model 873,Electrical,Controllers,Example Marine Systems,Active
+CMP-0020,Marine Battery Pack Model 532,Electrical,Batteries,Ocean Technologies,Discontinued
+CMP-0021,Inertial Sensor Model 357,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0022,Thruster Propeller Model 448,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0023,GPS Navigation Module Model 103,Navigation,GPS Systems,Coastal Engineering,Under Review
+CMP-0024,Marine Battery Pack Model 405,Electrical,Batteries,NavTech,Active
+CMP-0025,Aluminum Hull Panel Model 897,Structural,Hull Panels,Example Marine Systems,Under Review
+CMP-0026,Mounting Bracket Model 214,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0027,Lithium Battery Model 999,Electrical,Batteries,Ocean Technologies,Active
+CMP-0028,Marine GPS Unit Model 884,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0029,GPS Navigation Module Model 640,Navigation,GPS Systems,Atlantic Marine Electronics,Active
+CMP-0030,Motor Controller Model 787,Electrical,Controllers,Bluewater Components,Discontinued
+CMP-0031,GPS Receiver Model 330,Navigation,GPS Systems,Ocean Technologies,Discontinued
+CMP-0032,Auxiliary Drive Motor Model 107,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0033,Electric Propulsion Motor Model 132,Propulsion,Electric Motors,Bluewater Components,Active
+CMP-0034,Voltage Regulator Model 597,Electrical,Controllers,NavTech,Under Review
+CMP-0035,Power Controller Model 903,Electrical,Controllers,Harbor Systems,Discontinued
+CMP-0036,Lithium Battery Model 774,Electrical,Batteries,Atlantic Marine Electronics,Discontinued
+CMP-0037,Navigation Sensor Model 984,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0038,Propulsion Motor Model 845,Propulsion,Electric Motors,Bluewater Components,Active
+CMP-0039,Lithium Battery Model 649,Electrical,Batteries,Harbor Systems,Active
+CMP-0040,GPS Navigation Module Model 573,Navigation,GPS Systems,NavTech,Active
+CMP-0041,GPS Receiver Model 767,Navigation,GPS Systems,Example Marine Systems,Active
+CMP-0042,Battery Module Model 597,Electrical,Batteries,Harbor Systems,Active
+CMP-0043,GPS Receiver Model 488,Navigation,GPS Systems,Example Marine Systems,Discontinued
+CMP-0044,Hull Support Bracket Model 533,Structural,Brackets,Harbor Systems,Active
+CMP-0045,Power Controller Model 159,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0046,Composite Hull Panel Model 698,Structural,Hull Panels,Harbor Systems,Under Review
+CMP-0047,Marine Battery Pack Model 182,Electrical,Batteries,Marine Fabrication Co,Active
+CMP-0048,Propulsion Motor Model 222,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0049,Propulsion Motor Model 773,Propulsion,Electric Motors,Bluewater Components,Discontinued
+CMP-0050,Power Controller Model 371,Electrical,Controllers,Atlantic Marine Electronics,
+CMP-0051,Hull Support Bracket Model 869,Structural,Brackets,Ocean Technologies,Active
+CMP-0052,GPS Receiver Model 650,Navigation,GPS Systems,NavTech,Under Review
+CMP-0053,Reinforced Hull Panel Model 170,Structural,Hull Panels,NavTech,Discontinued
+CMP-0054,Reinforced Hull Panel Model 953,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0055,Thruster Propeller Model 206,Propulsion,Propellers,Marine Fabrication Co,Discontinued
+CMP-0056,Auxiliary Drive Motor Model 378,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0057,Power Controller Model 803,Electrical,Controllers,Coastal Engineering,Under Review
+CMP-0058,Depth Sensor Model 194,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0059,High-Torque Motor Model 889,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0060,Aluminum Hull Panel Model 552,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0061,Electric Propulsion Motor Model 807,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0062,Thruster Propeller Model 665,Propulsion,Propellers,Marine Fabrication Co,Discontinued
+CMP-0063,Battery Module Model 473,Electrical,Batteries,Example Marine Systems,Discontinued
+CMP-0064,Marine Battery Pack Model 205,Electrical,Batteries,Bluewater Components,Under Review
+CMP-0065,GPS Receiver Model 985,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0066,GPS Receiver Model 854,Navigation,GPS Systems,Bluewater Components,Discontinued
+CMP-0067,Power Controller Model 906,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0068,Marine Propeller Model 304,Propulsion,Propellers,Harbor Systems,Discontinued
+CMP-0069,Composite Hull Panel Model 124,Structural,Hull Panels,NavTech,Discontinued
+CMP-0070,Mounting Bracket Model 891,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0071,Depth Sensor Model 218,Navigation,Sensors,Coastal Engineering,Active
+CMP-0072,Composite Hull Panel Model 710,Structural,Hull Panels,Atlantic Marine Electronics,Discontinued
+CMP-0073,Structural Bracket Model 623,Structural,Brackets,Ocean Technologies,Discontinued
+CMP-0074,Power Controller Model 825,Electrical,Controllers,Atlantic Marine Electronics,Active
+CMP-0075,Motor Controller Model 171,propulsion,Controllers,Bluewater Components,Under Review
+CMP-0076,Aluminum Hull Panel Model 407,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0077,Navigation Sensor Model 813,Navigation,Sensors,Coastal Engineering,Under Review
+CMP-0078,Battery Module Model 780,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0079,Motor Controller Model 661,Electrical,Controllers,Example Marine Systems,Discontinued
+CMP-0080,Reinforced Hull Panel Model 904,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0081,Inertial Sensor Model 318,Navigation,Sensors,Harbor Systems,Under Review
+CMP-0082,Battery Module Model 627,Electrical,Batteries,Bluewater Components,Active
+CMP-0083,Power Controller Model 925,Electrical,Controllers,NavTech,Active
+CMP-0084,Auxiliary Drive Motor Model 586,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0085,Marine GPS Unit Model 813,Navigation,GPS Systems,Atlantic Marine Electronics,Discontinued
+CMP-0086,GPS Receiver Model 771,Navigation,GPS Systems,Example Marine Systems,Active
+CMP-0087,GPS Receiver Model 923,Navigation,GPS Systems,Harbor Systems,Active
+CMP-0088,Battery Module Model 236,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0089,Structural Bracket Model 934,Structural,Brackets,Atlantic Marine Electronics,Under Review
+CMP-0090,Marine GPS Unit Model 982,Navigation,GPS Systems,Harbor Systems,Discontinued
+CMP-0091,Aluminum Hull Panel Model 383,Structural,Hull Panels,Harbor Systems,Under Review
+CMP-0092,Motor Controller Model 179,Electrical,Controllers,Coastal Engineering,Active
+CMP-0093,Hull Support Bracket Model 653,Structural,Brackets,Ocean Technologies,Active
+CMP-0094,Battery Module Model 810,Electrical,Batteries,Marine Fabrication Co,Under Review
+CMP-0095,Battery Module Model 517,Electrical,Batteries,Bluewater Components,Under Review
+CMP-0096,Depth Sensor Model 311,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0097,Variable Pitch Propeller Model 106,Propulsion,Propellers,Bluewater Components,Discontinued
+CMP-0098,Inertial Sensor Model 865,Navigation,Sensors,NavTech,Discontinued
+CMP-0099,Motor Controller Model 597,Electrical,Controllers,Example Marine Systems,Discontinued
+CMP-0100,Structural Bracket Model 269,Electrical,Brackets,Harbor Systems,
+CMP-0101,Thruster Propeller Model 677,Propulsion,Propellers,Example Marine Systems,Active
+CMP-0102,GPS Navigation Module Model 286,Navigation,GPS Systems,Example Marine Systems,Discontinued
+CMP-0103,Depth Sensor Model 565,Navigation,Sensors,Bluewater Components,Discontinued
+CMP-0104,Navigation Sensor Model 358,Navigation,Sensors,Ocean Technologies,Discontinued
+CMP-0105,High-Torque Motor Model 329,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0106,Auxiliary Drive Motor Model 304,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0107,Lithium Battery Model 584,Electrical,Batteries,Ocean Technologies,Under Review
+CMP-0108,Voltage Regulator Model 362,Electrical,Controllers,Bluewater Components,Active
+CMP-0109,High-Torque Motor Model 210,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0110,Inertial Sensor Model 303,Navigation,Sensors,Ocean Technologies,Under Review
+CMP-0111,Marine Battery Pack Model 891,Electrical,Batteries,Coastal Engineering,Under Review
+CMP-0112,High-Torque Motor Model 645,Propulsion,Electric Motors,Atlantic Marine Electronics,Under Review
+CMP-0113,Aluminum Hull Panel Model 763,Structural,Hull Panels,Bluewater Components,Active
+CMP-0114,Depth Sensor Model 543,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0115,GPS Navigation Module Model 280,Navigation,GPS Systems,Coastal Engineering,Under Review
+CMP-0116,Navigation Sensor Model 945,Navigation,Sensors,Coastal Engineering,Discontinued
+CMP-0117,Battery Module Model 561,Electrical,Batteries,NavTech,Discontinued
+CMP-0118,Depth Sensor Model 606,Navigation,Sensors,Bluewater Components,Active
+CMP-0119,GPS Navigation Module Model 916,Navigation,GPS Systems,Coastal Engineering,Discontinued
+CMP-0120,Structural Bracket Model 110,Structural,Brackets,NavTech,Active
+CMP-0121,Motor Controller Model 668,Electrical,Controllers,NavTech,Under Review
+CMP-0122,Navigation Sensor Model 911,Navigation,Sensors,Example Marine Systems,Active
+CMP-0123,Reinforced Hull Panel Model 808,Structural,Hull Panels,NavTech,Discontinued
+CMP-0124,Structural Bracket Model 643,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0125,Structural Bracket Model 564,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0126,Composite Hull Panel Model 838,Structural,Hull Panels,NavTech,Discontinued
+CMP-0127,Auxiliary Drive Motor Model 321,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0128,Composite Hull Panel Model 403,Structural,Hull Panels,NavTech,Discontinued
+CMP-0129,Power Controller Model 825,Electrical,Controllers,Marine Fabrication Co,Discontinued
+CMP-0130,High-Torque Motor Model 814,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0131,GPS Receiver Model 687,Navigation,GPS Systems,Coastal Engineering,Discontinued
+CMP-0132,Navigation Sensor Model 288,Navigation,Sensors,Example Marine Systems,Discontinued
+CMP-0133,GPS Receiver Model 510,Navigation,GPS Systems,Harbor Systems,Active
+CMP-0134,Auxiliary Drive Motor Model 930,Propulsion,Electric Motors,Coastal Engineering,Active
+CMP-0135,Marine Battery Pack Model 882,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0136,Motor Controller Model 553,Electrical,Controllers,Coastal Engineering,Under Review
+CMP-0137,Inertial Sensor Model 735,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0138,Auxiliary Drive Motor Model 370,Propulsion,Electric Motors,Ocean Technologies,Active
+CMP-0139,Marine Battery Pack Model 176,Electrical,Batteries,Marine Fabrication Co,Active
+CMP-0140,Inertial Sensor Model 708,Navigation,Sensors,Harbor Systems,Discontinued
+CMP-0141,High-Torque Motor Model 823,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0142,Marine GPS Unit Model 339,Navigation,GPS Systems,Coastal Engineering,Under Review
+CMP-0143,Power Controller Model 657,Electrical,Controllers,NavTech,Under Review
+CMP-0144,Power Controller Model 173,Electrical,Controllers,Example Marine Systems,Active
+CMP-0145,Hull Support Bracket Model 227,Structural,Brackets,Harbor Systems,Under Review
+CMP-0146,Hull Support Bracket Model 612,Structural,Brackets,Harbor Systems,Discontinued
+CMP-0147,Propulsion Motor Model 852,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0148,Composite Hull Panel Model 334,Structural,Hull Panels,Example Marine Systems,Under Review
+CMP-0149,Composite Hull Panel Model 581,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0150,Voltage Regulator Model 933,propulsion,Controllers,Harbor Systems,
+CMP-0151,Navigation Sensor Model 441,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0152,High-Torque Motor Model 521,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0153,GPS Navigation Module Model 190,Navigation,GPS Systems,Bluewater Components,Discontinued
+CMP-0154,Reinforced Hull Panel Model 985,Structural,Hull Panels,Example Marine Systems,Under Review
+CMP-0155,Depth Sensor Model 292,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0156,Depth Sensor Model 308,Navigation,Sensors,Coastal Engineering,Under Review
+CMP-0157,Motor Controller Model 815,Electrical,Controllers,Harbor Systems,Active
+CMP-0158,Auxiliary Drive Motor Model 418,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0159,GPS Receiver Model 961,Navigation,GPS Systems,Ocean Technologies,Discontinued
+CMP-0160,Propulsion Motor Model 833,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0161,Hull Support Bracket Model 583,Structural,Brackets,NavTech,Discontinued
+CMP-0162,Power Controller Model 713,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0163,Hull Support Bracket Model 906,Structural,Brackets,Coastal Engineering,Active
+CMP-0164,Structural Bracket Model 693,Structural,Brackets,Harbor Systems,Active
+CMP-0165,Navigation Sensor Model 440,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0166,Aluminum Hull Panel Model 344,Structural,Hull Panels,Atlantic Marine Electronics,Active
+CMP-0167,GPS Navigation Module Model 862,Navigation,GPS Systems,Harbor Systems,Under Review
+CMP-0168,Inertial Sensor Model 911,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0169,High-Torque Motor Model 990,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0170,Marine Propeller Model 839,Propulsion,Propellers,Marine Fabrication Co,Discontinued
+CMP-0171,Battery Module Model 900,Electrical,Batteries,Coastal Engineering,Discontinued
+CMP-0172,GPS Navigation Module Model 972,Navigation,GPS Systems,Atlantic Marine Electronics,Discontinued
+CMP-0173,Marine GPS Unit Model 170,Navigation,GPS Systems,NavTech,Under Review
+CMP-0174,Aluminum Hull Panel Model 192,Structural,Hull Panels,Atlantic Marine Electronics,Active
+CMP-0175,Marine Propeller Model 810,Propulsion,Propellers,Coastal Engineering,Active
+CMP-0176,Marine Propeller Model 400,Propulsion,Propellers,Bluewater Components,Discontinued
+CMP-0177,GPS Receiver Model 643,Navigation,GPS Systems,Atlantic Marine Electronics,Under Review
+CMP-0178,Lithium Battery Model 180,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0179,Voltage Regulator Model 246,Electrical,Controllers,NavTech,Discontinued
+CMP-0180,Hull Support Bracket Model 782,Structural,Brackets,Example Marine Systems,Discontinued
+CMP-0181,Composite Hull Panel Model 552,Structural,Hull Panels,Bluewater Components,Under Review
+CMP-0182,Structural Bracket Model 356,Structural,Brackets,Harbor Systems,Discontinued
+CMP-0183,Motor Controller Model 209,Electrical,Controllers,NavTech,Discontinued
+CMP-0184,Structural Bracket Model 402,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0185,Depth Sensor Model 679,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0186,Depth Sensor Model 721,Navigation,Sensors,Bluewater Components,Active
+CMP-0187,Voltage Regulator Model 873,Electrical,Controllers,Marine Fabrication Co,Under Review
+CMP-0188,High-Torque Motor Model 907,Propulsion,Electric Motors,Harbor Systems,Active
+CMP-0189,Composite Hull Panel Model 402,Structural,Hull Panels,Bluewater Components,Under Review
+CMP-0190,GPS Receiver Model 235,Navigation,GPS Systems,Bluewater Components,Under Review
+CMP-0191,Reinforced Hull Panel Model 944,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0192,Reinforced Hull Panel Model 177,Structural,Hull Panels,Marine Fabrication Co,Active
+CMP-0193,Depth Sensor Model 909,Navigation,Sensors,Atlantic Marine Electronics,Active
+CMP-0194,Reinforced Hull Panel Model 477,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0195,Depth Sensor Model 791,Navigation,Sensors,NavTech,Discontinued
+CMP-0196,Thruster Propeller Model 326,Propulsion,Propellers,Ocean Technologies,Under Review
+CMP-0197,Inertial Sensor Model 518,Navigation,Sensors,Ocean Technologies,Active
+CMP-0198,High-Torque Motor Model 604,Propulsion,Electric Motors,Ocean Technologies,Active
+CMP-0199,Battery Module Model 564,Electrical,Batteries,Bluewater Components,Under Review
+CMP-0200,GPS Navigation Module Model 770,Electrical,GPS Systems,Ocean Technologies,
+CMP-0201,Depth Sensor Model 806,Navigation,Sensors,Bluewater Components,Active
+CMP-0202,Depth Sensor Model 975,Navigation,Sensors,Bluewater Components,Active
+CMP-0203,Mounting Bracket Model 507,Structural,Brackets,Coastal Engineering,Active
+CMP-0204,Marine Propeller Model 778,Propulsion,Propellers,NavTech,Under Review
+CMP-0205,High-Torque Motor Model 349,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0206,Marine Battery Pack Model 312,Electrical,Batteries,NavTech,Active
+CMP-0207,Aluminum Hull Panel Model 102,Structural,Hull Panels,Coastal Engineering,Active
+CMP-0208,Power Controller Model 212,Electrical,Controllers,Example Marine Systems,Active
+CMP-0209,Marine Propeller Model 702,Propulsion,Propellers,Bluewater Components,Active
+CMP-0210,Power Controller Model 229,Electrical,Controllers,Atlantic Marine Electronics,Under Review
+CMP-0211,Propulsion Motor Model 559,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0212,Thruster Propeller Model 326,Propulsion,Propellers,Example Marine Systems,Under Review
+CMP-0213,Structural Bracket Model 131,Structural,Brackets,Example Marine Systems,Discontinued
+CMP-0214,Inertial Sensor Model 210,Navigation,Sensors,Harbor Systems,Under Review
+CMP-0215,GPS Receiver Model 429,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0216,Voltage Regulator Model 748,Electrical,Controllers,Bluewater Components,Discontinued
+CMP-0217,Structural Bracket Model 719,Structural,Brackets,Atlantic Marine Electronics,Active
+CMP-0218,Propulsion Motor Model 562,Propulsion,Electric Motors,NavTech,Discontinued
+CMP-0219,Hull Support Bracket Model 525,Structural,Brackets,Ocean Technologies,Discontinued
+CMP-0220,Inertial Sensor Model 361,Navigation,Sensors,Bluewater Components,Active
+CMP-0221,GPS Receiver Model 951,Navigation,GPS Systems,Ocean Technologies,Active
+CMP-0222,Marine GPS Unit Model 856,Navigation,GPS Systems,Bluewater Components,Active
+CMP-0223,Thruster Propeller Model 225,Propulsion,Propellers,Atlantic Marine Electronics,Discontinued
+CMP-0224,GPS Navigation Module Model 714,Navigation,GPS Systems,Coastal Engineering,Discontinued
+CMP-0225,Auxiliary Drive Motor Model 772,propulsion,Electric Motors,Harbor Systems,Active
+CMP-0226,Thruster Propeller Model 476,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0227,Voltage Regulator Model 885,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0228,Composite Hull Panel Model 379,Structural,Hull Panels,Coastal Engineering,Discontinued
+CMP-0229,Composite Hull Panel Model 990,Structural,Hull Panels,Marine Fabrication Co,Under Review
+CMP-0230,GPS Receiver Model 858,Navigation,GPS Systems,Example Marine Systems,Active
+CMP-0231,Motor Controller Model 564,Electrical,Controllers,Bluewater Components,Active
+CMP-0232,Structural Bracket Model 432,Structural,Brackets,Ocean Technologies,Active
+CMP-0233,Marine Battery Pack Model 150,Electrical,Batteries,Ocean Technologies,Discontinued
+CMP-0234,Navigation Sensor Model 721,Navigation,Sensors,Harbor Systems,Discontinued
+CMP-0235,Aluminum Hull Panel Model 216,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0236,Thruster Propeller Model 794,Propulsion,Propellers,Harbor Systems,Under Review
+CMP-0237,Composite Hull Panel Model 504,Structural,Hull Panels,Example Marine Systems,Active
+CMP-0238,Power Controller Model 885,Electrical,Controllers,Marine Fabrication Co,Discontinued
+CMP-0239,Mounting Bracket Model 107,Structural,Brackets,Harbor Systems,Under Review
+CMP-0240,GPS Receiver Model 489,Navigation,GPS Systems,NavTech,Under Review
+CMP-0241,Reinforced Hull Panel Model 982,Structural,Hull Panels,Example Marine Systems,Discontinued
+CMP-0242,Marine Propeller Model 982,Propulsion,Propellers,Bluewater Components,Under Review
+CMP-0243,Inertial Sensor Model 755,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0244,Marine Propeller Model 432,Propulsion,Propellers,Marine Fabrication Co,Under Review
+CMP-0245,Depth Sensor Model 547,Navigation,Sensors,Ocean Technologies,Active
+CMP-0246,Inertial Sensor Model 180,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0247,Reinforced Hull Panel Model 897,Structural,Hull Panels,Marine Fabrication Co,Active
+CMP-0248,High-Torque Motor Model 459,Propulsion,Electric Motors,Marine Fabrication Co,Active
+CMP-0249,High-Torque Motor Model 302,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0250,Lithium Battery Model 891,Electrical,Batteries,Harbor Systems,
+CMP-0251,Inertial Sensor Model 423,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0252,Variable Pitch Propeller Model 746,Propulsion,Propellers,Coastal Engineering,Discontinued
+CMP-0253,Thruster Propeller Model 175,Propulsion,Propellers,Coastal Engineering,Discontinued
+CMP-0254,GPS Receiver Model 477,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0255,Variable Pitch Propeller Model 694,Propulsion,Propellers,Example Marine Systems,Discontinued
+CMP-0256,Voltage Regulator Model 587,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0257,GPS Navigation Module Model 831,Navigation,GPS Systems,Ocean Technologies,Under Review
+CMP-0258,Lithium Battery Model 824,Electrical,Batteries,Harbor Systems,Discontinued
+CMP-0259,Motor Controller Model 389,Electrical,Controllers,Atlantic Marine Electronics,Discontinued
+CMP-0260,Aluminum Hull Panel Model 762,Structural,Hull Panels,Bluewater Components,Active
+CMP-0261,Aluminum Hull Panel Model 794,Structural,Hull Panels,Atlantic Marine Electronics,Discontinued
+CMP-0262,Reinforced Hull Panel Model 183,Structural,Hull Panels,Marine Fabrication Co,Discontinued
+CMP-0263,Mounting Bracket Model 709,Structural,Brackets,Ocean Technologies,Discontinued
+CMP-0264,Depth Sensor Model 786,Navigation,Sensors,Ocean Technologies,Under Review
+CMP-0265,Depth Sensor Model 471,Navigation,Sensors,Coastal Engineering,Active
+CMP-0266,Motor Controller Model 296,Electrical,Controllers,NavTech,Active
+CMP-0267,Battery Module Model 964,Electrical,Batteries,Ocean Technologies,Under Review
+CMP-0268,Thruster Propeller Model 234,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0269,Marine Battery Pack Model 889,Electrical,Batteries,Marine Fabrication Co,Under Review
+CMP-0270,GPS Navigation Module Model 473,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0271,Mounting Bracket Model 646,Structural,Brackets,NavTech,Discontinued
+CMP-0272,GPS Navigation Module Model 794,Navigation,GPS Systems,Harbor Systems,Discontinued
+CMP-0273,Structural Bracket Model 640,Structural,Brackets,Atlantic Marine Electronics,Active
+CMP-0274,Battery Module Model 153,Electrical,Batteries,Harbor Systems,Discontinued
+CMP-0275,High-Torque Motor Model 185,Propulsion,Electric Motors,Marine Fabrication Co,Discontinued
+CMP-0276,GPS Navigation Module Model 193,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0277,Reinforced Hull Panel Model 154,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0278,Reinforced Hull Panel Model 183,Structural,Hull Panels,Bluewater Components,Active
+CMP-0279,Marine Propeller Model 959,Propulsion,Propellers,Bluewater Components,Active
+CMP-0280,Battery Module Model 949,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0281,Motor Controller Model 730,Electrical,Controllers,Example Marine Systems,Active
+CMP-0282,Marine Propeller Model 955,Propulsion,Propellers,Marine Fabrication Co,Under Review
+CMP-0283,GPS Navigation Module Model 343,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0284,Propulsion Motor Model 754,Propulsion,Electric Motors,Harbor Systems,Active
+CMP-0285,Thruster Propeller Model 648,Propulsion,Propellers,Example Marine Systems,Under Review
+CMP-0286,Battery Module Model 539,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0287,Aluminum Hull Panel Model 526,Structural,Hull Panels,Marine Fabrication Co,Under Review
+CMP-0288,Marine Propeller Model 638,Propulsion,Propellers,Example Marine Systems,Discontinued
+CMP-0289,Marine GPS Unit Model 496,Navigation,GPS Systems,Bluewater Components,Discontinued
+CMP-0290,Marine Propeller Model 453,Propulsion,Propellers,NavTech,Under Review
+CMP-0291,Marine Propeller Model 145,Propulsion,Propellers,Bluewater Components,Under Review
+CMP-0292,Aluminum Hull Panel Model 575,Structural,Hull Panels,Harbor Systems,Under Review
+CMP-0293,Lithium Battery Model 833,Electrical,Batteries,Harbor Systems,Active
+CMP-0294,Composite Hull Panel Model 910,Structural,Hull Panels,NavTech,Active
+CMP-0295,Structural Bracket Model 507,Structural,Brackets,Harbor Systems,Discontinued
+CMP-0296,High-Torque Motor Model 465,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0297,Mounting Bracket Model 918,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0298,Navigation Sensor Model 447,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0299,Inertial Sensor Model 373,Navigation,Sensors,Ocean Technologies,Under Review
+CMP-0300,GPS Navigation Module Model 716,Electrical,GPS Systems,Marine Fabrication Co,
+CMP-0301,Mounting Bracket Model 181,Structural,Brackets,Bluewater Components,Under Review
+CMP-0302,Hull Support Bracket Model 717,Structural,Brackets,Atlantic Marine Electronics,Active
+CMP-0303,Navigation Sensor Model 143,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0304,Inertial Sensor Model 910,Navigation,Sensors,Example Marine Systems,Active
+CMP-0305,Inertial Sensor Model 920,Navigation,Sensors,Marine Fabrication Co,Active
+CMP-0306,Power Controller Model 229,Electrical,Controllers,Ocean Technologies,Active
+CMP-0307,Hull Support Bracket Model 680,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0308,Motor Controller Model 480,Electrical,Controllers,Harbor Systems,Active
+CMP-0309,Motor Controller Model 421,Electrical,Controllers,Coastal Engineering,Active
+CMP-0310,Auxiliary Drive Motor Model 611,Propulsion,Electric Motors,Atlantic Marine Electronics,Under Review
+CMP-0311,Variable Pitch Propeller Model 820,Propulsion,Propellers,Harbor Systems,Active
+CMP-0312,Mounting Bracket Model 225,Structural,Brackets,Marine Fabrication Co,Active
+CMP-0313,Marine GPS Unit Model 555,Navigation,GPS Systems,Ocean Technologies,Under Review
+CMP-0314,Structural Bracket Model 166,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0315,Battery Module Model 620,Electrical,Batteries,NavTech,Active
+CMP-0316,Lithium Battery Model 909,Electrical,Batteries,Harbor Systems,Active
+CMP-0317,Hull Support Bracket Model 922,Structural,Brackets,Marine Fabrication Co,Under Review
+CMP-0318,High-Torque Motor Model 507,Propulsion,Electric Motors,Harbor Systems,Under Review
+CMP-0319,Inertial Sensor Model 175,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0320,Variable Pitch Propeller Model 796,Propulsion,Propellers,Bluewater Components,Active
+CMP-0321,Battery Module Model 614,Electrical,Batteries,Example Marine Systems,Active
+CMP-0322,Power Controller Model 265,Electrical,Controllers,Bluewater Components,Under Review
+CMP-0323,Voltage Regulator Model 390,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0324,Power Controller Model 740,Electrical,Controllers,Coastal Engineering,Under Review
+CMP-0325,Auxiliary Drive Motor Model 275,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0326,Electric Propulsion Motor Model 146,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0327,Voltage Regulator Model 754,Electrical,Controllers,Example Marine Systems,Discontinued
+CMP-0328,Hull Support Bracket Model 350,Structural,Brackets,Atlantic Marine Electronics,Discontinued
+CMP-0329,Marine GPS Unit Model 161,Navigation,GPS Systems,Marine Fabrication Co,Discontinued
+CMP-0330,Navigation Sensor Model 308,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0331,Voltage Regulator Model 426,Electrical,Controllers,Bluewater Components,Discontinued
+CMP-0332,Voltage Regulator Model 675,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0333,Power Controller Model 373,Electrical,Controllers,Harbor Systems,Active
+CMP-0334,Lithium Battery Model 397,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0335,GPS Receiver Model 933,Navigation,GPS Systems,Bluewater Components,Under Review
+CMP-0336,Composite Hull Panel Model 610,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0337,Mounting Bracket Model 192,Structural,Brackets,Atlantic Marine Electronics,Under Review
+CMP-0338,GPS Receiver Model 697,Navigation,GPS Systems,Bluewater Components,Active
+CMP-0339,Variable Pitch Propeller Model 711,Propulsion,Propellers,Harbor Systems,Discontinued
+CMP-0340,Propulsion Motor Model 237,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0341,Hull Support Bracket Model 146,Structural,Brackets,Atlantic Marine Electronics,Active
+CMP-0342,Voltage Regulator Model 395,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0343,Inertial Sensor Model 796,Navigation,Sensors,Ocean Technologies,Active
+CMP-0344,Variable Pitch Propeller Model 913,Propulsion,Propellers,Bluewater Components,Under Review
+CMP-0345,Composite Hull Panel Model 716,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0346,Electric Propulsion Motor Model 240,Propulsion,Electric Motors,Bluewater Components,Discontinued
+CMP-0347,Marine GPS Unit Model 627,Navigation,GPS Systems,Marine Fabrication Co,Discontinued
+CMP-0348,Reinforced Hull Panel Model 731,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0349,Structural Bracket Model 676,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0350,Variable Pitch Propeller Model 789,Propulsion,Propellers,Ocean Technologies,
+CMP-0351,Aluminum Hull Panel Model 585,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0352,Marine Battery Pack Model 591,Electrical,Batteries,Marine Fabrication Co,Under Review
+CMP-0353,Marine GPS Unit Model 348,Navigation,GPS Systems,Example Marine Systems,Under Review
+CMP-0354,Electric Propulsion Motor Model 551,Propulsion,Electric Motors,Bluewater Components,Discontinued
+CMP-0355,Voltage Regulator Model 308,Electrical,Controllers,Atlantic Marine Electronics,Under Review
+CMP-0356,Marine GPS Unit Model 241,Navigation,GPS Systems,NavTech,Under Review
+CMP-0357,Structural Bracket Model 485,Structural,Brackets,Bluewater Components,Active
+CMP-0358,Inertial Sensor Model 462,Navigation,Sensors,Coastal Engineering,Under Review
+CMP-0359,GPS Receiver Model 385,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0360,Structural Bracket Model 312,Structural,Brackets,Harbor Systems,Discontinued
+CMP-0361,Inertial Sensor Model 914,Navigation,Sensors,Coastal Engineering,Discontinued
+CMP-0362,Variable Pitch Propeller Model 938,Propulsion,Propellers,Bluewater Components,Active
+CMP-0363,Reinforced Hull Panel Model 831,Structural,Hull Panels,Ocean Technologies,Discontinued
+CMP-0364,Inertial Sensor Model 590,Navigation,Sensors,NavTech,Active
+CMP-0365,Mounting Bracket Model 211,Structural,Brackets,NavTech,Active
+CMP-0366,Auxiliary Drive Motor Model 153,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0367,Mounting Bracket Model 797,Structural,Brackets,Marine Fabrication Co,Active
+CMP-0368,Voltage Regulator Model 999,Electrical,Controllers,Harbor Systems,Discontinued
+CMP-0369,Motor Controller Model 392,Electrical,Controllers,Example Marine Systems,Active
+CMP-0370,Lithium Battery Model 527,Electrical,Batteries,Marine Fabrication Co,Active
+CMP-0371,Depth Sensor Model 866,Navigation,Sensors,Coastal Engineering,Active
+CMP-0372,Thruster Propeller Model 717,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0373,Structural Bracket Model 656,Structural,Brackets,Harbor Systems,Active
+CMP-0374,Depth Sensor Model 928,Navigation,Sensors,Ocean Technologies,Discontinued
+CMP-0375,Voltage Regulator Model 363,propulsion,Controllers,Marine Fabrication Co,Active
+CMP-0376,Structural Bracket Model 790,Structural,Brackets,NavTech,Active
+CMP-0377,Inertial Sensor Model 435,Navigation,Sensors,Ocean Technologies,Discontinued
+CMP-0378,Auxiliary Drive Motor Model 588,Propulsion,Electric Motors,Bluewater Components,Active
+CMP-0379,Variable Pitch Propeller Model 341,Propulsion,Propellers,Harbor Systems,Discontinued
+CMP-0380,Structural Bracket Model 840,Structural,Brackets,Example Marine Systems,Discontinued
+CMP-0381,Composite Hull Panel Model 783,Structural,Hull Panels,Ocean Technologies,Discontinued
+CMP-0382,Reinforced Hull Panel Model 802,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0383,Variable Pitch Propeller Model 729,Propulsion,Propellers,NavTech,Active
+CMP-0384,Power Controller Model 565,Electrical,Controllers,Bluewater Components,Discontinued
+CMP-0385,GPS Receiver Model 796,Navigation,GPS Systems,Ocean Technologies,Under Review
+CMP-0386,Depth Sensor Model 677,Navigation,Sensors,Ocean Technologies,Active
+CMP-0387,Lithium Battery Model 435,Electrical,Batteries,Harbor Systems,Active
+CMP-0388,Power Controller Model 622,Electrical,Controllers,Harbor Systems,Active
+CMP-0389,Marine GPS Unit Model 525,Navigation,GPS Systems,Harbor Systems,Under Review
+CMP-0390,Thruster Propeller Model 926,Propulsion,Propellers,Coastal Engineering,Under Review
+CMP-0391,Variable Pitch Propeller Model 936,Propulsion,Propellers,Example Marine Systems,Under Review
+CMP-0392,Lithium Battery Model 533,Electrical,Batteries,Bluewater Components,Under Review
+CMP-0393,Electric Propulsion Motor Model 583,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0394,GPS Receiver Model 884,Navigation,GPS Systems,Atlantic Marine Electronics,Discontinued
+CMP-0395,Navigation Sensor Model 484,Navigation,Sensors,Ocean Technologies,Under Review
+CMP-0396,Power Controller Model 282,Electrical,Controllers,Atlantic Marine Electronics,Under Review
+CMP-0397,Lithium Battery Model 874,Electrical,Batteries,Example Marine Systems,Discontinued
+CMP-0398,Inertial Sensor Model 488,Navigation,Sensors,NavTech,Active
+CMP-0399,Depth Sensor Model 382,Navigation,Sensors,NavTech,Under Review
+CMP-0400,Propulsion Motor Model 729,Electrical,Electric Motors,Example Marine Systems,
+CMP-0401,Lithium Battery Model 708,Electrical,Batteries,Example Marine Systems,Discontinued
+CMP-0402,Electric Propulsion Motor Model 511,Propulsion,Electric Motors,Harbor Systems,Active
+CMP-0403,Lithium Battery Model 615,Electrical,Batteries,Coastal Engineering,Active
+CMP-0404,Mounting Bracket Model 409,Structural,Brackets,Marine Fabrication Co,Under Review
+CMP-0405,Motor Controller Model 381,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0406,Voltage Regulator Model 607,Electrical,Controllers,Example Marine Systems,Discontinued
+CMP-0407,Inertial Sensor Model 526,Navigation,Sensors,Atlantic Marine Electronics,Active
+CMP-0408,Mounting Bracket Model 872,Structural,Brackets,Harbor Systems,Active
+CMP-0409,Voltage Regulator Model 247,Electrical,Controllers,Harbor Systems,Active
+CMP-0410,Inertial Sensor Model 642,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0411,Power Controller Model 438,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0412,Aluminum Hull Panel Model 841,Structural,Hull Panels,NavTech,Active
+CMP-0413,Structural Bracket Model 719,Structural,Brackets,Example Marine Systems,Active
+CMP-0414,Battery Module Model 313,Electrical,Batteries,Bluewater Components,Discontinued
+CMP-0415,Auxiliary Drive Motor Model 859,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0416,Marine GPS Unit Model 718,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0417,Motor Controller Model 489,Electrical,Controllers,Harbor Systems,Under Review
+CMP-0418,Hull Support Bracket Model 468,Structural,Brackets,Harbor Systems,Discontinued
+CMP-0419,Variable Pitch Propeller Model 308,Propulsion,Propellers,Bluewater Components,Discontinued
+CMP-0420,Marine GPS Unit Model 984,Navigation,GPS Systems,NavTech,Under Review
+CMP-0421,Battery Module Model 666,Electrical,Batteries,Atlantic Marine Electronics,Discontinued
+CMP-0422,Battery Module Model 335,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0423,Voltage Regulator Model 770,Electrical,Controllers,Bluewater Components,Discontinued
+CMP-0424,Navigation Sensor Model 272,Navigation,Sensors,Bluewater Components,Active
+CMP-0425,Power Controller Model 655,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0426,Electric Propulsion Motor Model 882,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0427,Lithium Battery Model 824,Electrical,Batteries,Marine Fabrication Co,Active
+CMP-0428,Motor Controller Model 161,Electrical,Controllers,Harbor Systems,Under Review
+CMP-0429,GPS Receiver Model 644,Navigation,GPS Systems,Atlantic Marine Electronics,Active
+CMP-0430,Thruster Propeller Model 393,Propulsion,Propellers,Example Marine Systems,Under Review
+CMP-0431,GPS Receiver Model 198,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0432,Motor Controller Model 373,Electrical,Controllers,Atlantic Marine Electronics,Active
+CMP-0433,Hull Support Bracket Model 678,Structural,Brackets,NavTech,Under Review
+CMP-0434,Voltage Regulator Model 947,Electrical,Controllers,Ocean Technologies,Under Review
+CMP-0435,Propulsion Motor Model 488,Propulsion,Electric Motors,Atlantic Marine Electronics,Under Review
+CMP-0436,Marine GPS Unit Model 109,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0437,Inertial Sensor Model 903,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0438,Auxiliary Drive Motor Model 316,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0439,High-Torque Motor Model 656,Propulsion,Electric Motors,Example Marine Systems,Active
+CMP-0440,Composite Hull Panel Model 701,Structural,Hull Panels,Marine Fabrication Co,Under Review
+CMP-0441,GPS Navigation Module Model 266,Navigation,GPS Systems,NavTech,Under Review
+CMP-0442,Navigation Sensor Model 873,Navigation,Sensors,Marine Fabrication Co,Under Review
+CMP-0443,Marine Propeller Model 200,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0444,Thruster Propeller Model 887,Propulsion,Propellers,Atlantic Marine Electronics,Discontinued
+CMP-0445,Variable Pitch Propeller Model 602,Propulsion,Propellers,NavTech,Discontinued
+CMP-0446,Depth Sensor Model 796,Navigation,Sensors,Atlantic Marine Electronics,Active
+CMP-0447,Aluminum Hull Panel Model 175,Structural,Hull Panels,Ocean Technologies,Discontinued
+CMP-0448,Voltage Regulator Model 902,Electrical,Controllers,Marine Fabrication Co,Under Review
+CMP-0449,Navigation Sensor Model 209,Navigation,Sensors,Ocean Technologies,Active
+CMP-0450,Hull Support Bracket Model 879,propulsion,Brackets,Coastal Engineering,
+CMP-0451,Lithium Battery Model 541,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0452,GPS Receiver Model 191,Navigation,GPS Systems,Bluewater Components,Under Review
+CMP-0453,Variable Pitch Propeller Model 112,Propulsion,Propellers,Coastal Engineering,Discontinued
+CMP-0454,Marine GPS Unit Model 672,Navigation,GPS Systems,NavTech,Under Review
+CMP-0455,Power Controller Model 242,Electrical,Controllers,Coastal Engineering,Discontinued
+CMP-0456,Mounting Bracket Model 164,Structural,Brackets,Marine Fabrication Co,Discontinued
+CMP-0457,Hull Support Bracket Model 595,Structural,Brackets,Ocean Technologies,Discontinued
+CMP-0458,Aluminum Hull Panel Model 740,Structural,Hull Panels,Harbor Systems,Under Review
+CMP-0459,Power Controller Model 238,Electrical,Controllers,Coastal Engineering,Active
+CMP-0460,Inertial Sensor Model 489,Navigation,Sensors,Bluewater Components,Discontinued
+CMP-0461,Structural Bracket Model 708,Structural,Brackets,Marine Fabrication Co,Discontinued
+CMP-0462,Reinforced Hull Panel Model 421,Structural,Hull Panels,Marine Fabrication Co,Discontinued
+CMP-0463,Structural Bracket Model 811,Structural,Brackets,Harbor Systems,Under Review
+CMP-0464,Motor Controller Model 387,Electrical,Controllers,Atlantic Marine Electronics,Discontinued
+CMP-0465,Auxiliary Drive Motor Model 798,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0466,GPS Navigation Module Model 916,Navigation,GPS Systems,Coastal Engineering,Under Review
+CMP-0467,Thruster Propeller Model 611,Propulsion,Propellers,Marine Fabrication Co,Under Review
+CMP-0468,Reinforced Hull Panel Model 774,Structural,Hull Panels,Marine Fabrication Co,Under Review
+CMP-0469,Depth Sensor Model 559,Navigation,Sensors,Harbor Systems,Under Review
+CMP-0470,Inertial Sensor Model 137,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0471,Auxiliary Drive Motor Model 773,Propulsion,Electric Motors,Bluewater Components,Active
+CMP-0472,Variable Pitch Propeller Model 915,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0473,High-Torque Motor Model 327,Propulsion,Electric Motors,NavTech,Discontinued
+CMP-0474,Hull Support Bracket Model 890,Structural,Brackets,Marine Fabrication Co,Discontinued
+CMP-0475,Marine Propeller Model 402,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0476,High-Torque Motor Model 419,Propulsion,Electric Motors,Bluewater Components,Discontinued
+CMP-0477,Motor Controller Model 587,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0478,Depth Sensor Model 407,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0479,High-Torque Motor Model 763,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0480,Marine Battery Pack Model 278,Electrical,Batteries,Marine Fabrication Co,Discontinued
+CMP-0481,Depth Sensor Model 916,Navigation,Sensors,Atlantic Marine Electronics,Under Review
+CMP-0482,Marine Battery Pack Model 773,Electrical,Batteries,Atlantic Marine Electronics,Discontinued
+CMP-0483,Propulsion Motor Model 706,Propulsion,Electric Motors,Atlantic Marine Electronics,Discontinued
+CMP-0484,Auxiliary Drive Motor Model 385,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0485,High-Torque Motor Model 433,Propulsion,Electric Motors,NavTech,Discontinued
+CMP-0486,Thruster Propeller Model 983,Propulsion,Propellers,Harbor Systems,Under Review
+CMP-0487,Structural Bracket Model 501,Structural,Brackets,Ocean Technologies,Discontinued
+CMP-0488,Structural Bracket Model 276,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0489,High-Torque Motor Model 220,Propulsion,Electric Motors,NavTech,Discontinued
+CMP-0490,High-Torque Motor Model 810,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0491,Inertial Sensor Model 241,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0492,Voltage Regulator Model 650,Electrical,Controllers,Marine Fabrication Co,Under Review
+CMP-0493,Motor Controller Model 243,Electrical,Controllers,Marine Fabrication Co,Discontinued
+CMP-0494,GPS Navigation Module Model 109,Navigation,GPS Systems,Harbor Systems,Active
+CMP-0495,Voltage Regulator Model 617,Electrical,Controllers,Harbor Systems,Discontinued
+CMP-0496,Inertial Sensor Model 960,Navigation,Sensors,Harbor Systems,Discontinued
+CMP-0497,Marine Battery Pack Model 131,Electrical,Batteries,NavTech,Discontinued
+CMP-0498,Marine Propeller Model 650,Propulsion,Propellers,Coastal Engineering,Active
+CMP-0499,Inertial Sensor Model 623,Navigation,Sensors,Ocean Technologies,Under Review
+CMP-0500,Thruster Propeller Model 943,Electrical,Propellers,Bluewater Components,
+CMP-0501,Thruster Propeller Model 323,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0502,Power Controller Model 560,Electrical,Controllers,Coastal Engineering,Discontinued
+CMP-0503,Marine Propeller Model 894,Propulsion,Propellers,NavTech,Active
+CMP-0504,Mounting Bracket Model 730,Structural,Brackets,Marine Fabrication Co,Active
+CMP-0505,Marine Battery Pack Model 459,Electrical,Batteries,Coastal Engineering,Under Review
+CMP-0506,Voltage Regulator Model 399,Electrical,Controllers,Coastal Engineering,Under Review
+CMP-0507,Composite Hull Panel Model 868,Structural,Hull Panels,Atlantic Marine Electronics,Active
+CMP-0508,Aluminum Hull Panel Model 986,Structural,Hull Panels,Marine Fabrication Co,Active
+CMP-0509,Power Controller Model 879,Electrical,Controllers,Atlantic Marine Electronics,Discontinued
+CMP-0510,Voltage Regulator Model 524,Electrical,Controllers,Atlantic Marine Electronics,Discontinued
+CMP-0511,Propulsion Motor Model 627,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0512,Hull Support Bracket Model 435,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0513,Thruster Propeller Model 780,Propulsion,Propellers,Bluewater Components,Active
+CMP-0514,GPS Navigation Module Model 944,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0515,Hull Support Bracket Model 445,Structural,Brackets,Marine Fabrication Co,Under Review
+CMP-0516,Inertial Sensor Model 880,Navigation,Sensors,Example Marine Systems,Active
+CMP-0517,Marine Propeller Model 227,Propulsion,Propellers,Marine Fabrication Co,Discontinued
+CMP-0518,GPS Navigation Module Model 307,Navigation,GPS Systems,Marine Fabrication Co,Under Review
+CMP-0519,Reinforced Hull Panel Model 195,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0520,Thruster Propeller Model 764,Propulsion,Propellers,Marine Fabrication Co,Active
+CMP-0521,Inertial Sensor Model 816,Navigation,Sensors,NavTech,Discontinued
+CMP-0522,Electric Propulsion Motor Model 318,Propulsion,Electric Motors,Harbor Systems,Active
+CMP-0523,Marine Battery Pack Model 796,Electrical,Batteries,Harbor Systems,Active
+CMP-0524,Marine Propeller Model 980,Propulsion,Propellers,Atlantic Marine Electronics,Under Review
+CMP-0525,Power Controller Model 334,propulsion,Controllers,Atlantic Marine Electronics,Active
+CMP-0526,High-Torque Motor Model 476,Propulsion,Electric Motors,Coastal Engineering,Active
+CMP-0527,Marine GPS Unit Model 793,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0528,Propulsion Motor Model 459,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0529,Voltage Regulator Model 803,Electrical,Controllers,Harbor Systems,Active
+CMP-0530,Auxiliary Drive Motor Model 870,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0531,Navigation Sensor Model 422,Navigation,Sensors,Marine Fabrication Co,Active
+CMP-0532,Composite Hull Panel Model 666,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0533,Marine Propeller Model 630,Propulsion,Propellers,NavTech,Under Review
+CMP-0534,Inertial Sensor Model 155,Navigation,Sensors,NavTech,Discontinued
+CMP-0535,GPS Receiver Model 611,Navigation,GPS Systems,Ocean Technologies,Under Review
+CMP-0536,Variable Pitch Propeller Model 235,Propulsion,Propellers,Atlantic Marine Electronics,Under Review
+CMP-0537,Inertial Sensor Model 799,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0538,Electric Propulsion Motor Model 114,Propulsion,Electric Motors,Coastal Engineering,Active
+CMP-0539,Propulsion Motor Model 618,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0540,Inertial Sensor Model 511,Navigation,Sensors,Ocean Technologies,Under Review
+CMP-0541,Power Controller Model 417,Electrical,Controllers,Ocean Technologies,Under Review
+CMP-0542,Marine Battery Pack Model 434,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0543,Thruster Propeller Model 547,Propulsion,Propellers,NavTech,Active
+CMP-0544,Battery Module Model 218,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0545,Thruster Propeller Model 859,Propulsion,Propellers,Marine Fabrication Co,Active
+CMP-0546,Electric Propulsion Motor Model 267,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0547,Reinforced Hull Panel Model 229,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0548,High-Torque Motor Model 926,Propulsion,Electric Motors,Atlantic Marine Electronics,Discontinued
+CMP-0549,Thruster Propeller Model 690,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0550,Depth Sensor Model 611,Navigation,Sensors,Marine Fabrication Co,
+CMP-0551,Power Controller Model 687,Electrical,Controllers,Ocean Technologies,Active
+CMP-0552,Electric Propulsion Motor Model 350,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0553,Mounting Bracket Model 283,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0554,GPS Navigation Module Model 354,Navigation,GPS Systems,Atlantic Marine Electronics,Under Review
+CMP-0555,Mounting Bracket Model 685,Structural,Brackets,Bluewater Components,Active
+CMP-0556,Auxiliary Drive Motor Model 923,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0557,Variable Pitch Propeller Model 892,Propulsion,Propellers,Coastal Engineering,Discontinued
+CMP-0558,Marine Propeller Model 477,Propulsion,Propellers,NavTech,Discontinued
+CMP-0559,Reinforced Hull Panel Model 477,Structural,Hull Panels,Harbor Systems,Active
+CMP-0560,Lithium Battery Model 519,Electrical,Batteries,Example Marine Systems,Active
+CMP-0561,Reinforced Hull Panel Model 101,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0562,Composite Hull Panel Model 642,Structural,Hull Panels,NavTech,Discontinued
+CMP-0563,GPS Receiver Model 828,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0564,Propulsion Motor Model 817,Propulsion,Electric Motors,Bluewater Components,Discontinued
+CMP-0565,Auxiliary Drive Motor Model 752,Propulsion,Electric Motors,Atlantic Marine Electronics,Active
+CMP-0566,Thruster Propeller Model 233,Propulsion,Propellers,NavTech,Discontinued
+CMP-0567,Hull Support Bracket Model 817,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0568,Depth Sensor Model 176,Navigation,Sensors,NavTech,Active
+CMP-0569,Electric Propulsion Motor Model 268,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0570,Mounting Bracket Model 648,Structural,Brackets,Bluewater Components,Active
+CMP-0571,Navigation Sensor Model 371,Navigation,Sensors,Ocean Technologies,Active
+CMP-0572,Voltage Regulator Model 813,Electrical,Controllers,Example Marine Systems,Active
+CMP-0573,Composite Hull Panel Model 828,Structural,Hull Panels,NavTech,Discontinued
+CMP-0574,Marine GPS Unit Model 406,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0575,Variable Pitch Propeller Model 669,Propulsion,Propellers,NavTech,Active
+CMP-0576,GPS Receiver Model 224,Navigation,GPS Systems,Example Marine Systems,Active
+CMP-0577,Lithium Battery Model 943,Electrical,Batteries,Atlantic Marine Electronics,Discontinued
+CMP-0578,Marine Propeller Model 122,Propulsion,Propellers,Ocean Technologies,Active
+CMP-0579,GPS Receiver Model 967,Navigation,GPS Systems,Bluewater Components,Active
+CMP-0580,Marine Propeller Model 272,Propulsion,Propellers,Atlantic Marine Electronics,Under Review
+CMP-0581,Depth Sensor Model 491,Navigation,Sensors,Atlantic Marine Electronics,Active
+CMP-0582,Composite Hull Panel Model 381,Structural,Hull Panels,Coastal Engineering,Discontinued
+CMP-0583,Marine Battery Pack Model 734,Electrical,Batteries,NavTech,Under Review
+CMP-0584,Hull Support Bracket Model 663,Structural,Brackets,Harbor Systems,Active
+CMP-0585,Variable Pitch Propeller Model 240,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0586,Battery Module Model 900,Electrical,Batteries,Bluewater Components,Discontinued
+CMP-0587,Inertial Sensor Model 614,Navigation,Sensors,Bluewater Components,Discontinued
+CMP-0588,Composite Hull Panel Model 426,Structural,Hull Panels,NavTech,Active
+CMP-0589,Reinforced Hull Panel Model 642,Structural,Hull Panels,Bluewater Components,Under Review
+CMP-0590,Lithium Battery Model 353,Electrical,Batteries,NavTech,Discontinued
+CMP-0591,Propulsion Motor Model 463,Propulsion,Electric Motors,Marine Fabrication Co,Active
+CMP-0592,Voltage Regulator Model 814,Electrical,Controllers,Bluewater Components,Under Review
+CMP-0593,Thruster Propeller Model 677,Propulsion,Propellers,Marine Fabrication Co,Under Review
+CMP-0594,Voltage Regulator Model 416,Electrical,Controllers,Marine Fabrication Co,Discontinued
+CMP-0595,Electric Propulsion Motor Model 338,Propulsion,Electric Motors,NavTech,Active
+CMP-0596,GPS Navigation Module Model 728,Navigation,GPS Systems,NavTech,Active
+CMP-0597,Reinforced Hull Panel Model 160,Structural,Hull Panels,Example Marine Systems,Active
+CMP-0598,Marine Battery Pack Model 981,Electrical,Batteries,Bluewater Components,Active
+CMP-0599,Structural Bracket Model 203,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0600,Composite Hull Panel Model 849,Electrical,Hull Panels,Atlantic Marine Electronics,
+CMP-0601,Depth Sensor Model 824,Navigation,Sensors,Bluewater Components,Active
+CMP-0602,Motor Controller Model 851,Electrical,Controllers,Coastal Engineering,Active
+CMP-0603,Marine Battery Pack Model 686,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0604,High-Torque Motor Model 928,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0605,Marine Propeller Model 439,Propulsion,Propellers,Ocean Technologies,Active
+CMP-0606,Mounting Bracket Model 751,Structural,Brackets,Ocean Technologies,Under Review
+CMP-0607,Mounting Bracket Model 371,Structural,Brackets,NavTech,Active
+CMP-0608,Variable Pitch Propeller Model 905,Propulsion,Propellers,Ocean Technologies,Under Review
+CMP-0609,Propulsion Motor Model 548,Propulsion,Electric Motors,Atlantic Marine Electronics,Active
+CMP-0610,Navigation Sensor Model 459,Navigation,Sensors,Atlantic Marine Electronics,Active
+CMP-0611,GPS Receiver Model 562,Navigation,GPS Systems,Ocean Technologies,Active
+CMP-0612,Reinforced Hull Panel Model 367,Structural,Hull Panels,Ocean Technologies,Active
+CMP-0613,Reinforced Hull Panel Model 264,Structural,Hull Panels,Ocean Technologies,Under Review
+CMP-0614,Thruster Propeller Model 728,Propulsion,Propellers,Harbor Systems,Under Review
+CMP-0615,Thruster Propeller Model 268,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0616,High-Torque Motor Model 310,Propulsion,Electric Motors,NavTech,Discontinued
+CMP-0617,Hull Support Bracket Model 343,Structural,Brackets,Ocean Technologies,Active
+CMP-0618,Depth Sensor Model 155,Navigation,Sensors,Bluewater Components,Active
+CMP-0619,GPS Navigation Module Model 943,Navigation,GPS Systems,Harbor Systems,Active
+CMP-0620,Auxiliary Drive Motor Model 274,Propulsion,Electric Motors,Coastal Engineering,Active
+CMP-0621,GPS Navigation Module Model 903,Navigation,GPS Systems,Atlantic Marine Electronics,Discontinued
+CMP-0622,Depth Sensor Model 757,Navigation,Sensors,Atlantic Marine Electronics,Active
+CMP-0623,Hull Support Bracket Model 291,Structural,Brackets,Harbor Systems,Active
+CMP-0624,Hull Support Bracket Model 369,Structural,Brackets,NavTech,Discontinued
+CMP-0625,Electric Propulsion Motor Model 187,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0626,Marine GPS Unit Model 162,Navigation,GPS Systems,Atlantic Marine Electronics,Under Review
+CMP-0627,Inertial Sensor Model 341,Navigation,Sensors,Harbor Systems,Discontinued
+CMP-0628,Thruster Propeller Model 135,Propulsion,Propellers,Marine Fabrication Co,Active
+CMP-0629,GPS Receiver Model 316,Navigation,GPS Systems,NavTech,Active
+CMP-0630,Marine Propeller Model 799,Propulsion,Propellers,Atlantic Marine Electronics,Active
+CMP-0631,Motor Controller Model 844,Electrical,Controllers,Ocean Technologies,Active
+CMP-0632,Inertial Sensor Model 433,Navigation,Sensors,Coastal Engineering,Under Review
+CMP-0633,Marine GPS Unit Model 738,Navigation,GPS Systems,Atlantic Marine Electronics,Active
+CMP-0634,GPS Receiver Model 680,Navigation,GPS Systems,Ocean Technologies,Active
+CMP-0635,Thruster Propeller Model 452,Propulsion,Propellers,Atlantic Marine Electronics,Discontinued
+CMP-0636,Inertial Sensor Model 723,Navigation,Sensors,Harbor Systems,Active
+CMP-0637,Motor Controller Model 247,Electrical,Controllers,Atlantic Marine Electronics,Active
+CMP-0638,Inertial Sensor Model 343,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0639,Navigation Sensor Model 120,Navigation,Sensors,Bluewater Components,Discontinued
+CMP-0640,Hull Support Bracket Model 978,Structural,Brackets,Ocean Technologies,Active
+CMP-0641,Voltage Regulator Model 553,Electrical,Controllers,Bluewater Components,Discontinued
+CMP-0642,GPS Receiver Model 552,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0643,Depth Sensor Model 627,Navigation,Sensors,Marine Fabrication Co,Active
+CMP-0644,Mounting Bracket Model 899,Structural,Brackets,Example Marine Systems,Active
+CMP-0645,Lithium Battery Model 355,Electrical,Batteries,Example Marine Systems,Discontinued
+CMP-0646,Thruster Propeller Model 303,Propulsion,Propellers,Coastal Engineering,Discontinued
+CMP-0647,Inertial Sensor Model 226,Navigation,Sensors,Example Marine Systems,Active
+CMP-0648,Structural Bracket Model 556,Structural,Brackets,Marine Fabrication Co,Discontinued
+CMP-0649,Mounting Bracket Model 957,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0650,Marine Propeller Model 495,Propulsion,Propellers,Example Marine Systems,
+CMP-0651,Marine Battery Pack Model 330,Electrical,Batteries,NavTech,Discontinued
+CMP-0652,Marine GPS Unit Model 109,Navigation,GPS Systems,Harbor Systems,Active
+CMP-0653,Lithium Battery Model 358,Electrical,Batteries,Coastal Engineering,Under Review
+CMP-0654,Hull Support Bracket Model 972,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0655,Reinforced Hull Panel Model 409,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0656,High-Torque Motor Model 674,Propulsion,Electric Motors,Coastal Engineering,Discontinued
+CMP-0657,Marine Propeller Model 444,Propulsion,Propellers,Coastal Engineering,Under Review
+CMP-0658,Hull Support Bracket Model 771,Structural,Brackets,Coastal Engineering,Active
+CMP-0659,Lithium Battery Model 924,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0660,Aluminum Hull Panel Model 126,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0661,Hull Support Bracket Model 497,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0662,Voltage Regulator Model 830,Electrical,Controllers,NavTech,Under Review
+CMP-0663,Inertial Sensor Model 407,Navigation,Sensors,Marine Fabrication Co,Under Review
+CMP-0664,Power Controller Model 582,Electrical,Controllers,Marine Fabrication Co,Under Review
+CMP-0665,Aluminum Hull Panel Model 443,Structural,Hull Panels,Ocean Technologies,Active
+CMP-0666,Aluminum Hull Panel Model 992,Structural,Hull Panels,Coastal Engineering,Discontinued
+CMP-0667,Hull Support Bracket Model 699,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0668,Marine Propeller Model 987,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0669,Marine Battery Pack Model 490,Electrical,Batteries,Coastal Engineering,Discontinued
+CMP-0670,Auxiliary Drive Motor Model 305,Propulsion,Electric Motors,Bluewater Components,Discontinued
+CMP-0671,GPS Navigation Module Model 983,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0672,Inertial Sensor Model 281,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0673,Propulsion Motor Model 380,Propulsion,Electric Motors,NavTech,Active
+CMP-0674,Power Controller Model 232,Electrical,Controllers,Atlantic Marine Electronics,Under Review
+CMP-0675,Navigation Sensor Model 588,propulsion,Sensors,Atlantic Marine Electronics,Active
+CMP-0676,High-Torque Motor Model 114,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0677,Marine Battery Pack Model 104,Electrical,Batteries,NavTech,Active
+CMP-0678,Mounting Bracket Model 205,Structural,Brackets,Atlantic Marine Electronics,Under Review
+CMP-0679,Composite Hull Panel Model 943,Structural,Hull Panels,Example Marine Systems,Discontinued
+CMP-0680,Structural Bracket Model 632,Structural,Brackets,Bluewater Components,Discontinued
+CMP-0681,Motor Controller Model 467,Electrical,Controllers,NavTech,Active
+CMP-0682,GPS Receiver Model 329,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0683,Electric Propulsion Motor Model 475,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0684,Aluminum Hull Panel Model 149,Structural,Hull Panels,Ocean Technologies,Under Review
+CMP-0685,Electric Propulsion Motor Model 526,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0686,Variable Pitch Propeller Model 818,Propulsion,Propellers,Marine Fabrication Co,Active
+CMP-0687,Variable Pitch Propeller Model 777,Propulsion,Propellers,Ocean Technologies,Under Review
+CMP-0688,Reinforced Hull Panel Model 950,Structural,Hull Panels,Ocean Technologies,Under Review
+CMP-0689,Marine Propeller Model 903,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0690,Battery Module Model 951,Electrical,Batteries,NavTech,Discontinued
+CMP-0691,Depth Sensor Model 140,Navigation,Sensors,Harbor Systems,Active
+CMP-0692,Depth Sensor Model 102,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0693,Propulsion Motor Model 252,Propulsion,Electric Motors,Ocean Technologies,Under Review
+CMP-0694,High-Torque Motor Model 759,Propulsion,Electric Motors,NavTech,Discontinued
+CMP-0695,Hull Support Bracket Model 151,Structural,Brackets,Ocean Technologies,Active
+CMP-0696,Variable Pitch Propeller Model 920,Propulsion,Propellers,Bluewater Components,Discontinued
+CMP-0697,Electric Propulsion Motor Model 109,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0698,Motor Controller Model 548,Electrical,Controllers,Coastal Engineering,Under Review
+CMP-0699,Variable Pitch Propeller Model 287,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0700,Navigation Sensor Model 955,Electrical,Sensors,Atlantic Marine Electronics,
+CMP-0701,Inertial Sensor Model 916,Navigation,Sensors,Marine Fabrication Co,Active
+CMP-0702,Lithium Battery Model 206,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0703,Depth Sensor Model 725,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0704,Propulsion Motor Model 599,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0705,GPS Receiver Model 367,Navigation,GPS Systems,Bluewater Components,Active
+CMP-0706,Voltage Regulator Model 635,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0707,Motor Controller Model 779,Electrical,Controllers,Atlantic Marine Electronics,Active
+CMP-0708,Auxiliary Drive Motor Model 617,Propulsion,Electric Motors,Harbor Systems,Discontinued
+CMP-0709,Battery Module Model 428,Electrical,Batteries,NavTech,Discontinued
+CMP-0710,Aluminum Hull Panel Model 328,Structural,Hull Panels,Atlantic Marine Electronics,Discontinued
+CMP-0711,Battery Module Model 554,Electrical,Batteries,Harbor Systems,Active
+CMP-0712,Navigation Sensor Model 221,Navigation,Sensors,Harbor Systems,Under Review
+CMP-0713,Propulsion Motor Model 522,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0714,High-Torque Motor Model 620,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0715,Navigation Sensor Model 945,Navigation,Sensors,Example Marine Systems,Active
+CMP-0716,Inertial Sensor Model 885,Navigation,Sensors,Harbor Systems,Under Review
+CMP-0717,Mounting Bracket Model 199,Structural,Brackets,NavTech,Active
+CMP-0718,Structural Bracket Model 919,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0719,Composite Hull Panel Model 268,Structural,Hull Panels,Harbor Systems,Active
+CMP-0720,GPS Navigation Module Model 725,Navigation,GPS Systems,NavTech,Active
+CMP-0721,Marine Propeller Model 568,Propulsion,Propellers,NavTech,Under Review
+CMP-0722,Reinforced Hull Panel Model 147,Structural,Hull Panels,Ocean Technologies,Discontinued
+CMP-0723,GPS Navigation Module Model 104,Navigation,GPS Systems,Example Marine Systems,Under Review
+CMP-0724,Inertial Sensor Model 899,Navigation,Sensors,Marine Fabrication Co,Under Review
+CMP-0725,Lithium Battery Model 496,Electrical,Batteries,Bluewater Components,Under Review
+CMP-0726,Inertial Sensor Model 809,Navigation,Sensors,NavTech,Discontinued
+CMP-0727,Navigation Sensor Model 563,Navigation,Sensors,Marine Fabrication Co,Active
+CMP-0728,Inertial Sensor Model 660,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0729,Lithium Battery Model 739,Electrical,Batteries,Coastal Engineering,Under Review
+CMP-0730,Aluminum Hull Panel Model 765,Structural,Hull Panels,Marine Fabrication Co,Under Review
+CMP-0731,Reinforced Hull Panel Model 675,Structural,Hull Panels,Harbor Systems,Under Review
+CMP-0732,Navigation Sensor Model 927,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0733,Propulsion Motor Model 248,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0734,High-Torque Motor Model 868,Propulsion,Electric Motors,Marine Fabrication Co,Discontinued
+CMP-0735,Composite Hull Panel Model 807,Structural,Hull Panels,Coastal Engineering,Active
+CMP-0736,Variable Pitch Propeller Model 204,Propulsion,Propellers,NavTech,Under Review
+CMP-0737,Marine GPS Unit Model 903,Navigation,GPS Systems,Coastal Engineering,Under Review
+CMP-0738,Variable Pitch Propeller Model 526,Propulsion,Propellers,Bluewater Components,Under Review
+CMP-0739,High-Torque Motor Model 307,Propulsion,Electric Motors,Harbor Systems,Active
+CMP-0740,Aluminum Hull Panel Model 298,Structural,Hull Panels,Coastal Engineering,Discontinued
+CMP-0741,Lithium Battery Model 277,Electrical,Batteries,Ocean Technologies,Discontinued
+CMP-0742,Variable Pitch Propeller Model 669,Propulsion,Propellers,Coastal Engineering,Active
+CMP-0743,Power Controller Model 438,Electrical,Controllers,Harbor Systems,Under Review
+CMP-0744,Lithium Battery Model 430,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0745,Structural Bracket Model 663,Structural,Brackets,Bluewater Components,Active
+CMP-0746,Composite Hull Panel Model 633,Structural,Hull Panels,Ocean Technologies,Under Review
+CMP-0747,Voltage Regulator Model 649,Electrical,Controllers,Atlantic Marine Electronics,Active
+CMP-0748,Composite Hull Panel Model 779,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0749,Mounting Bracket Model 870,Structural,Brackets,Harbor Systems,Under Review
+CMP-0750,High-Torque Motor Model 556,propulsion,Electric Motors,NavTech,
+CMP-0751,Marine Battery Pack Model 428,Electrical,Batteries,Atlantic Marine Electronics,Active
+CMP-0752,Inertial Sensor Model 841,Navigation,Sensors,Coastal Engineering,Active
+CMP-0753,Hull Support Bracket Model 144,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0754,Voltage Regulator Model 184,Electrical,Controllers,Ocean Technologies,Active
+CMP-0755,Auxiliary Drive Motor Model 786,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0756,GPS Receiver Model 650,Navigation,GPS Systems,Atlantic Marine Electronics,Under Review
+CMP-0757,Electric Propulsion Motor Model 570,Propulsion,Electric Motors,Bluewater Components,Active
+CMP-0758,Electric Propulsion Motor Model 282,Propulsion,Electric Motors,Coastal Engineering,Under Review
+CMP-0759,High-Torque Motor Model 517,Propulsion,Electric Motors,Atlantic Marine Electronics,Discontinued
+CMP-0760,Navigation Sensor Model 117,Navigation,Sensors,Atlantic Marine Electronics,Under Review
+CMP-0761,Electric Propulsion Motor Model 874,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0762,Thruster Propeller Model 208,Propulsion,Propellers,Coastal Engineering,Under Review
+CMP-0763,Reinforced Hull Panel Model 883,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0764,GPS Navigation Module Model 260,Navigation,GPS Systems,NavTech,Active
+CMP-0765,Inertial Sensor Model 247,Navigation,Sensors,Coastal Engineering,Under Review
+CMP-0766,Aluminum Hull Panel Model 995,Structural,Hull Panels,Marine Fabrication Co,Active
+CMP-0767,Propulsion Motor Model 650,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0768,Power Controller Model 522,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0769,Marine Battery Pack Model 954,Electrical,Batteries,Coastal Engineering,Active
+CMP-0770,Electric Propulsion Motor Model 971,Propulsion,Electric Motors,Harbor Systems,Under Review
+CMP-0771,Thruster Propeller Model 168,Propulsion,Propellers,Coastal Engineering,Active
+CMP-0772,Motor Controller Model 465,Electrical,Controllers,Marine Fabrication Co,Under Review
+CMP-0773,Battery Module Model 734,Electrical,Batteries,Ocean Technologies,Active
+CMP-0774,Hull Support Bracket Model 436,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0775,Motor Controller Model 538,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0776,Composite Hull Panel Model 829,Structural,Hull Panels,Atlantic Marine Electronics,Discontinued
+CMP-0777,Aluminum Hull Panel Model 850,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0778,Navigation Sensor Model 893,Navigation,Sensors,Coastal Engineering,Discontinued
+CMP-0779,Electric Propulsion Motor Model 961,Propulsion,Electric Motors,Coastal Engineering,Active
+CMP-0780,Voltage Regulator Model 741,Electrical,Controllers,Ocean Technologies,Under Review
+CMP-0781,Electric Propulsion Motor Model 932,Propulsion,Electric Motors,Atlantic Marine Electronics,Under Review
+CMP-0782,Marine Battery Pack Model 366,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0783,Motor Controller Model 328,Electrical,Controllers,Coastal Engineering,Active
+CMP-0784,GPS Navigation Module Model 472,Navigation,GPS Systems,Example Marine Systems,Under Review
+CMP-0785,Marine Battery Pack Model 243,Electrical,Batteries,Harbor Systems,Active
+CMP-0786,Marine Battery Pack Model 849,Electrical,Batteries,Harbor Systems,Discontinued
+CMP-0787,Propulsion Motor Model 337,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0788,Composite Hull Panel Model 784,Structural,Hull Panels,NavTech,Under Review
+CMP-0789,Hull Support Bracket Model 565,Structural,Brackets,Example Marine Systems,Active
+CMP-0790,Aluminum Hull Panel Model 633,Structural,Hull Panels,Coastal Engineering,Under Review
+CMP-0791,Reinforced Hull Panel Model 769,Structural,Hull Panels,Atlantic Marine Electronics,Discontinued
+CMP-0792,Variable Pitch Propeller Model 328,Propulsion,Propellers,Atlantic Marine Electronics,Discontinued
+CMP-0793,Hull Support Bracket Model 718,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0794,Power Controller Model 335,Electrical,Controllers,Ocean Technologies,Under Review
+CMP-0795,Composite Hull Panel Model 291,Structural,Hull Panels,Marine Fabrication Co,Discontinued
+CMP-0796,Propulsion Motor Model 930,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0797,Thruster Propeller Model 590,Propulsion,Propellers,Harbor Systems,Active
+CMP-0798,Power Controller Model 349,Electrical,Controllers,Example Marine Systems,Active
+CMP-0799,Marine Battery Pack Model 624,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0800,Lithium Battery Model 364,Navigation,Batteries,Marine Fabrication Co,
+CMP-0801,Marine GPS Unit Model 845,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0802,Voltage Regulator Model 582,Electrical,Controllers,Harbor Systems,Active
+CMP-0803,Voltage Regulator Model 246,Electrical,Controllers,Marine Fabrication Co,Under Review
+CMP-0804,Aluminum Hull Panel Model 802,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0805,Propulsion Motor Model 494,Propulsion,Electric Motors,Marine Fabrication Co,Active
+CMP-0806,Propulsion Motor Model 946,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0807,Propulsion Motor Model 729,Propulsion,Electric Motors,Example Marine Systems,Under Review
+CMP-0808,Propulsion Motor Model 775,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0809,Thruster Propeller Model 530,Propulsion,Propellers,Bluewater Components,Active
+CMP-0810,GPS Navigation Module Model 908,Navigation,GPS Systems,Atlantic Marine Electronics,Discontinued
+CMP-0811,Marine Propeller Model 360,Propulsion,Propellers,Harbor Systems,Active
+CMP-0812,Thruster Propeller Model 997,Propulsion,Propellers,Atlantic Marine Electronics,Discontinued
+CMP-0813,Marine Battery Pack Model 861,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0814,Propulsion Motor Model 770,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0815,Hull Support Bracket Model 209,Structural,Brackets,Marine Fabrication Co,Discontinued
+CMP-0816,Structural Bracket Model 533,Structural,Brackets,Bluewater Components,Under Review
+CMP-0817,Mounting Bracket Model 523,Structural,Brackets,Harbor Systems,Active
+CMP-0818,Hull Support Bracket Model 414,Structural,Brackets,Bluewater Components,Under Review
+CMP-0819,Marine GPS Unit Model 221,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0820,Lithium Battery Model 620,Electrical,Batteries,Atlantic Marine Electronics,Discontinued
+CMP-0821,Propulsion Motor Model 751,Propulsion,Electric Motors,Example Marine Systems,Active
+CMP-0822,Voltage Regulator Model 545,Electrical,Controllers,Ocean Technologies,Active
+CMP-0823,Reinforced Hull Panel Model 181,Structural,Hull Panels,Example Marine Systems,Under Review
+CMP-0824,Inertial Sensor Model 771,Navigation,Sensors,Coastal Engineering,Under Review
+CMP-0825,Propulsion Motor Model 549,propulsion,Electric Motors,Example Marine Systems,Active
+CMP-0826,Composite Hull Panel Model 902,Structural,Hull Panels,NavTech,Under Review
+CMP-0827,Battery Module Model 344,Electrical,Batteries,Example Marine Systems,Active
+CMP-0828,Variable Pitch Propeller Model 461,Propulsion,Propellers,Atlantic Marine Electronics,Discontinued
+CMP-0829,Marine Battery Pack Model 820,Electrical,Batteries,Ocean Technologies,Active
+CMP-0830,Hull Support Bracket Model 935,Structural,Brackets,Coastal Engineering,Active
+CMP-0831,Motor Controller Model 688,Electrical,Controllers,Example Marine Systems,Discontinued
+CMP-0832,Voltage Regulator Model 209,Electrical,Controllers,Ocean Technologies,Under Review
+CMP-0833,Mounting Bracket Model 922,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0834,Hull Support Bracket Model 676,Structural,Brackets,Harbor Systems,Active
+CMP-0835,Structural Bracket Model 571,Structural,Brackets,Example Marine Systems,Discontinued
+CMP-0836,Marine Propeller Model 491,Propulsion,Propellers,NavTech,Under Review
+CMP-0837,Motor Controller Model 461,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0838,Reinforced Hull Panel Model 195,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0839,Aluminum Hull Panel Model 282,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0840,Aluminum Hull Panel Model 375,Structural,Hull Panels,Marine Fabrication Co,Under Review
+CMP-0841,Voltage Regulator Model 304,Electrical,Controllers,NavTech,Under Review
+CMP-0842,Power Controller Model 334,Electrical,Controllers,NavTech,Active
+CMP-0843,Composite Hull Panel Model 222,Structural,Hull Panels,Ocean Technologies,Under Review
+CMP-0844,Marine GPS Unit Model 143,Navigation,GPS Systems,Harbor Systems,Discontinued
+CMP-0845,Structural Bracket Model 989,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0846,Motor Controller Model 327,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0847,Inertial Sensor Model 133,Navigation,Sensors,Bluewater Components,Discontinued
+CMP-0848,Power Controller Model 815,Electrical,Controllers,Harbor Systems,Discontinued
+CMP-0849,Auxiliary Drive Motor Model 488,Propulsion,Electric Motors,Ocean Technologies,Discontinued
+CMP-0850,Mounting Bracket Model 661,Structural,Brackets,Coastal Engineering,
+CMP-0851,Structural Bracket Model 451,Structural,Brackets,Bluewater Components,Active
+CMP-0852,Depth Sensor Model 529,Navigation,Sensors,Bluewater Components,Discontinued
+CMP-0853,Navigation Sensor Model 284,Navigation,Sensors,Marine Fabrication Co,Under Review
+CMP-0854,Marine Battery Pack Model 376,Electrical,Batteries,NavTech,Under Review
+CMP-0855,Depth Sensor Model 249,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0856,Propulsion Motor Model 611,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0857,Hull Support Bracket Model 356,Structural,Brackets,Example Marine Systems,Discontinued
+CMP-0858,Electric Propulsion Motor Model 320,Propulsion,Electric Motors,Coastal Engineering,Discontinued
+CMP-0859,Thruster Propeller Model 442,Propulsion,Propellers,Coastal Engineering,Discontinued
+CMP-0860,Hull Support Bracket Model 120,Structural,Brackets,Atlantic Marine Electronics,Active
+CMP-0861,Aluminum Hull Panel Model 689,Structural,Hull Panels,Marine Fabrication Co,Discontinued
+CMP-0862,Structural Bracket Model 622,Structural,Brackets,Harbor Systems,Under Review
+CMP-0863,GPS Navigation Module Model 728,Navigation,GPS Systems,Coastal Engineering,Discontinued
+CMP-0864,Marine Battery Pack Model 927,Electrical,Batteries,Bluewater Components,Discontinued
+CMP-0865,GPS Receiver Model 265,Navigation,GPS Systems,Bluewater Components,Active
+CMP-0866,Structural Bracket Model 398,Structural,Brackets,Coastal Engineering,Under Review
+CMP-0867,Navigation Sensor Model 899,Navigation,Sensors,Bluewater Components,Under Review
+CMP-0868,Depth Sensor Model 288,Navigation,Sensors,Example Marine Systems,Active
+CMP-0869,Voltage Regulator Model 817,Electrical,Controllers,Ocean Technologies,Active
+CMP-0870,Power Controller Model 197,Electrical,Controllers,Ocean Technologies,Discontinued
+CMP-0871,Propulsion Motor Model 636,Propulsion,Electric Motors,Ocean Technologies,Active
+CMP-0872,Composite Hull Panel Model 770,Structural,Hull Panels,Atlantic Marine Electronics,Discontinued
+CMP-0873,Marine Battery Pack Model 390,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0874,Marine Battery Pack Model 958,Electrical,Batteries,Marine Fabrication Co,Active
+CMP-0875,Variable Pitch Propeller Model 984,Propulsion,Propellers,Harbor Systems,Discontinued
+CMP-0876,Mounting Bracket Model 814,Structural,Brackets,Marine Fabrication Co,Under Review
+CMP-0877,Inertial Sensor Model 755,Navigation,Sensors,Coastal Engineering,Discontinued
+CMP-0878,GPS Receiver Model 552,Navigation,GPS Systems,Coastal Engineering,Discontinued
+CMP-0879,Depth Sensor Model 410,Navigation,Sensors,Example Marine Systems,Active
+CMP-0880,Motor Controller Model 580,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0881,Navigation Sensor Model 109,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0882,Marine Battery Pack Model 482,Electrical,Batteries,NavTech,Discontinued
+CMP-0883,Depth Sensor Model 267,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0884,Power Controller Model 532,Electrical,Controllers,NavTech,Under Review
+CMP-0885,Structural Bracket Model 860,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0886,Lithium Battery Model 239,Electrical,Batteries,Coastal Engineering,Active
+CMP-0887,Navigation Sensor Model 817,Navigation,Sensors,Harbor Systems,Active
+CMP-0888,Composite Hull Panel Model 150,Structural,Hull Panels,Example Marine Systems,Active
+CMP-0889,Variable Pitch Propeller Model 228,Propulsion,Propellers,Harbor Systems,Under Review
+CMP-0890,Electric Propulsion Motor Model 254,Propulsion,Electric Motors,Example Marine Systems,Discontinued
+CMP-0891,Motor Controller Model 419,Electrical,Controllers,Harbor Systems,Discontinued
+CMP-0892,GPS Navigation Module Model 182,Navigation,GPS Systems,Marine Fabrication Co,Active
+CMP-0893,Mounting Bracket Model 656,Structural,Brackets,Harbor Systems,Active
+CMP-0894,Motor Controller Model 948,Electrical,Controllers,Example Marine Systems,Active
+CMP-0895,Motor Controller Model 353,Electrical,Controllers,Example Marine Systems,Active
+CMP-0896,Marine GPS Unit Model 781,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0897,Navigation Sensor Model 262,Navigation,Sensors,Example Marine Systems,Under Review
+CMP-0898,Variable Pitch Propeller Model 753,Propulsion,Propellers,Coastal Engineering,Active
+CMP-0899,Aluminum Hull Panel Model 323,Structural,Hull Panels,Ocean Technologies,Active
+CMP-0900,Depth Sensor Model 271,Electrical,Sensors,Coastal Engineering,
+CMP-0901,Marine Propeller Model 109,Propulsion,Propellers,Example Marine Systems,Under Review
+CMP-0902,GPS Navigation Module Model 889,Navigation,GPS Systems,Ocean Technologies,Active
+CMP-0903,Power Controller Model 802,Electrical,Controllers,Bluewater Components,Under Review
+CMP-0904,High-Torque Motor Model 760,Propulsion,Electric Motors,Marine Fabrication Co,Under Review
+CMP-0905,Propulsion Motor Model 338,Propulsion,Electric Motors,Bluewater Components,Under Review
+CMP-0906,Structural Bracket Model 297,Structural,Brackets,Example Marine Systems,Under Review
+CMP-0907,Inertial Sensor Model 237,Navigation,Sensors,Coastal Engineering,Active
+CMP-0908,Inertial Sensor Model 401,Navigation,Sensors,Harbor Systems,Active
+CMP-0909,Motor Controller Model 849,Electrical,Controllers,Harbor Systems,Discontinued
+CMP-0910,Marine Battery Pack Model 258,Electrical,Batteries,Harbor Systems,Discontinued
+CMP-0911,Hull Support Bracket Model 100,Structural,Brackets,Atlantic Marine Electronics,Under Review
+CMP-0912,Marine Battery Pack Model 977,Electrical,Batteries,Bluewater Components,Under Review
+CMP-0913,Voltage Regulator Model 164,Electrical,Controllers,Atlantic Marine Electronics,Active
+CMP-0914,Marine GPS Unit Model 389,Navigation,GPS Systems,Bluewater Components,Discontinued
+CMP-0915,Composite Hull Panel Model 635,Structural,Hull Panels,Ocean Technologies,Active
+CMP-0916,Lithium Battery Model 306,Electrical,Batteries,Ocean Technologies,Discontinued
+CMP-0917,Lithium Battery Model 684,Electrical,Batteries,Atlantic Marine Electronics,Under Review
+CMP-0918,Depth Sensor Model 475,Navigation,Sensors,NavTech,Under Review
+CMP-0919,Auxiliary Drive Motor Model 771,Propulsion,Electric Motors,Harbor Systems,Active
+CMP-0920,GPS Navigation Module Model 671,Navigation,GPS Systems,Atlantic Marine Electronics,Discontinued
+CMP-0921,Thruster Propeller Model 141,Propulsion,Propellers,Ocean Technologies,Discontinued
+CMP-0922,Electric Propulsion Motor Model 203,Propulsion,Electric Motors,NavTech,Under Review
+CMP-0923,GPS Receiver Model 638,Navigation,GPS Systems,NavTech,Under Review
+CMP-0924,Voltage Regulator Model 208,Electrical,Controllers,Bluewater Components,Under Review
+CMP-0925,Depth Sensor Model 270,Navigation,Sensors,Marine Fabrication Co,Under Review
+CMP-0926,Inertial Sensor Model 261,Navigation,Sensors,Harbor Systems,Discontinued
+CMP-0927,Hull Support Bracket Model 522,Structural,Brackets,Atlantic Marine Electronics,Under Review
+CMP-0928,Aluminum Hull Panel Model 658,Structural,Hull Panels,NavTech,Discontinued
+CMP-0929,Hull Support Bracket Model 558,Structural,Brackets,Atlantic Marine Electronics,Active
+CMP-0930,Thruster Propeller Model 116,Propulsion,Propellers,Marine Fabrication Co,Discontinued
+CMP-0931,Marine Propeller Model 319,Propulsion,Propellers,Bluewater Components,Active
+CMP-0932,Composite Hull Panel Model 138,Structural,Hull Panels,Harbor Systems,Discontinued
+CMP-0933,Battery Module Model 475,Electrical,Batteries,NavTech,Active
+CMP-0934,Mounting Bracket Model 684,Structural,Brackets,Atlantic Marine Electronics,Under Review
+CMP-0935,Marine Battery Pack Model 432,Electrical,Batteries,Harbor Systems,Active
+CMP-0936,Marine GPS Unit Model 757,Navigation,GPS Systems,Coastal Engineering,Active
+CMP-0937,GPS Receiver Model 889,Navigation,GPS Systems,Bluewater Components,Discontinued
+CMP-0938,Depth Sensor Model 990,Navigation,Sensors,NavTech,Under Review
+CMP-0939,Marine Propeller Model 412,Propulsion,Propellers,Example Marine Systems,Discontinued
+CMP-0940,Voltage Regulator Model 814,Electrical,Controllers,NavTech,Active
+CMP-0941,Variable Pitch Propeller Model 870,Propulsion,Propellers,Ocean Technologies,Active
+CMP-0942,Navigation Sensor Model 251,Navigation,Sensors,Marine Fabrication Co,Discontinued
+CMP-0943,Thruster Propeller Model 863,Propulsion,Propellers,Example Marine Systems,Under Review
+CMP-0944,Depth Sensor Model 508,Navigation,Sensors,Atlantic Marine Electronics,Under Review
+CMP-0945,Battery Module Model 672,Electrical,Batteries,NavTech,Discontinued
+CMP-0946,Marine GPS Unit Model 730,Navigation,GPS Systems,NavTech,Active
+CMP-0947,Variable Pitch Propeller Model 431,Propulsion,Propellers,Ocean Technologies,Active
+CMP-0948,Navigation Sensor Model 456,Navigation,Sensors,NavTech,Discontinued
+CMP-0949,Reinforced Hull Panel Model 273,Structural,Hull Panels,Bluewater Components,Under Review
+CMP-0950,GPS Navigation Module Model 145,Navigation,GPS Systems,NavTech,
+CMP-0951,Aluminum Hull Panel Model 973,Structural,Hull Panels,Ocean Technologies,Active
+CMP-0952,Auxiliary Drive Motor Model 989,Propulsion,Electric Motors,Coastal Engineering,Active
+CMP-0953,Reinforced Hull Panel Model 560,Structural,Hull Panels,Harbor Systems,Active
+CMP-0954,Aluminum Hull Panel Model 650,Structural,Hull Panels,NavTech,Active
+CMP-0955,Structural Bracket Model 847,Structural,Brackets,Marine Fabrication Co,Under Review
+CMP-0956,Thruster Propeller Model 779,Propulsion,Propellers,Example Marine Systems,Discontinued
+CMP-0957,Battery Module Model 305,Electrical,Batteries,Coastal Engineering,Active
+CMP-0958,GPS Receiver Model 497,Navigation,GPS Systems,Coastal Engineering,Under Review
+CMP-0959,Composite Hull Panel Model 399,Structural,Hull Panels,Atlantic Marine Electronics,Active
+CMP-0960,GPS Navigation Module Model 596,Navigation,GPS Systems,Ocean Technologies,Active
+CMP-0961,Voltage Regulator Model 829,Electrical,Controllers,Example Marine Systems,Active
+CMP-0962,Motor Controller Model 601,Electrical,Controllers,Atlantic Marine Electronics,Under Review
+CMP-0963,Battery Module Model 800,Electrical,Batteries,Bluewater Components,Discontinued
+CMP-0964,Aluminum Hull Panel Model 382,Structural,Hull Panels,Example Marine Systems,Under Review
+CMP-0965,Mounting Bracket Model 668,Structural,Brackets,Coastal Engineering,Active
+CMP-0966,Motor Controller Model 772,Electrical,Controllers,Marine Fabrication Co,Active
+CMP-0967,GPS Navigation Module Model 346,Navigation,GPS Systems,Marine Fabrication Co,Discontinued
+CMP-0968,Hull Support Bracket Model 655,Structural,Brackets,Marine Fabrication Co,Active
+CMP-0969,Lithium Battery Model 416,Electrical,Batteries,Marine Fabrication Co,Discontinued
+CMP-0970,Battery Module Model 169,Electrical,Batteries,Ocean Technologies,Active
+CMP-0971,Aluminum Hull Panel Model 130,Structural,Hull Panels,Bluewater Components,Discontinued
+CMP-0972,Navigation Sensor Model 863,Navigation,Sensors,Coastal Engineering,Active
+CMP-0973,Lithium Battery Model 289,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0974,Aluminum Hull Panel Model 337,Structural,Hull Panels,NavTech,Under Review
+CMP-0975,Marine Propeller Model 804,propulsion,Propellers,Harbor Systems,Active
+CMP-0976,Depth Sensor Model 972,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0977,GPS Receiver Model 297,Navigation,GPS Systems,NavTech,Active
+CMP-0978,GPS Navigation Module Model 522,Navigation,GPS Systems,NavTech,Under Review
+CMP-0979,Lithium Battery Model 281,Electrical,Batteries,Harbor Systems,Under Review
+CMP-0980,Navigation Sensor Model 352,Navigation,Sensors,Atlantic Marine Electronics,Discontinued
+CMP-0981,Thruster Propeller Model 420,Propulsion,Propellers,Atlantic Marine Electronics,Under Review
+CMP-0982,Propulsion Motor Model 567,Propulsion,Electric Motors,Example Marine Systems,Active
+CMP-0983,Marine GPS Unit Model 496,Navigation,GPS Systems,Example Marine Systems,Active
+CMP-0984,Hull Support Bracket Model 411,Structural,Brackets,Coastal Engineering,Discontinued
+CMP-0985,Motor Controller Model 727,Electrical,Controllers,Example Marine Systems,Under Review
+CMP-0986,Voltage Regulator Model 562,Electrical,Controllers,Ocean Technologies,Under Review
+CMP-0987,Auxiliary Drive Motor Model 502,Propulsion,Electric Motors,Atlantic Marine Electronics,Discontinued
+CMP-0988,GPS Receiver Model 564,Navigation,GPS Systems,NavTech,Discontinued
+CMP-0989,Variable Pitch Propeller Model 808,Propulsion,Propellers,Marine Fabrication Co,Under Review
+CMP-0990,Electric Propulsion Motor Model 823,Propulsion,Electric Motors,Harbor Systems,Under Review
+CMP-0991,Aluminum Hull Panel Model 824,Structural,Hull Panels,Atlantic Marine Electronics,Under Review
+CMP-0992,Voltage Regulator Model 489,Electrical,Controllers,Example Marine Systems,Active
+CMP-0993,Composite Hull Panel Model 989,Structural,Hull Panels,Marine Fabrication Co,Active
+CMP-0994,Variable Pitch Propeller Model 416,Propulsion,Propellers,Harbor Systems,Discontinued
+CMP-0995,Lithium Battery Model 307,Electrical,Batteries,Example Marine Systems,Under Review
+CMP-0996,Reinforced Hull Panel Model 609,Structural,Hull Panels,Harbor Systems,Under Review
+CMP-0997,Marine Propeller Model 322,Propulsion,Propellers,Harbor Systems,Discontinued
+CMP-0998,Depth Sensor Model 715,Navigation,Sensors,Example Marine Systems,Active
+CMP-0999,Composite Hull Panel Model 289,Structural,Hull Panels,Marine Fabrication Co,Active
+CMP-1000,Composite Hull Panel Model 974,Electrical,Hull Panels,Example Marine Systems,
