@@ -1,138 +1,265 @@
 # Maritime Manufacturing Metadata Catalog
 
-A Python-based metadata management system for standardizing, validating, organizing, and searching fictional maritime manufacturing data using semantic web technologies.
+A Python-based metadata management system for standardizing, validating, classifying, and retrieving synthetic maritime manufacturing data using semantic web technologies.
 
-The project demonstrates how metadata schemas, controlled vocabularies, and knowledge graphs can improve data quality, classification, and traceability in industrial environments.
+The project demonstrates how metadata schemas, controlled vocabularies, ontologies, and knowledge graphs can improve information discovery, data quality, and industrial signal traceability.
+
+**[Explore the Interactive Manufacturing Knowledge Graph](https://jonszuba.github.io/maritime-metadata-catalog/visualizations/equipment_graph.html)**
+
+## Project Highlights
+
+| Metric | Result |
+|---|---:|
+| Synthetic component records | 1,000 |
+| Valid component records | 976 |
+| Invalid component records identified | 24 |
+| Component validation pass rate | 97.6% |
+| Component catalog RDF triples | 4,942 |
+| Manufacturing knowledge graph entities | 14 |
+| Manufacturing knowledge graph triples | 66 |
+| SHACL validation violations | 0 |
+| Passing automated tests | 30/30 |
+
+All data is synthetic and does not represent proprietary manufacturing systems.
 
 ## Project Overview
 
-This independent project implements an end-to-end metadata management pipeline for 1,000 synthetic maritime manufacturing components.
+The system consists of two complementary metadata models:
 
-The system cleans inconsistent records, validates metadata against a JSON schema and SKOS taxonomy, generates an RDF knowledge graph, and provides interactive search capabilities.
+- **Component Metadata Catalog:** A reproducible pipeline for cleaning, validating, classifying, and searching maritime manufacturing component records.
+- **Manufacturing Knowledge Graph:** An ontology-backed RDF graph connecting facilities, production cells, machines, sensors, and industrial signals.
 
-An additional manufacturing equipment graph connects facilities, production cells, machines, sensors, and industrial signals, allowing raw signal identifiers to be traced back to their physical context.
+Together, these models demonstrate metadata management, controlled classification, semantic modeling, automated validation, information retrieval, and industrial data contextualization.
 
-All data is fictional and generated for demonstration purposes.
+## System Architecture
+
+### Component Metadata Pipeline
+
+```mermaid
+flowchart TD
+    A[Synthetic Component Data] --> B[Data Cleaning and Standardization]
+    B --> C[Metadata Validation]
+    D[JSON Metadata Specification] --> C
+    E[SKOS Controlled Vocabulary] --> C
+    C --> F[Valid Component Records]
+    C --> G[Validation Error Report]
+    F --> H[RDF Component Catalog]
+    H --> I[SPARQL Search]
+    G --> J[Data Quality Analytics]
+```
+
+### Manufacturing Knowledge Graph
+
+```mermaid
+flowchart TD
+    A[Equipment and Signal CSV Data] --> B[RDF Graph Construction]
+    B --> C[Manufacturing Knowledge Graph]
+    C --> D[SPARQL Signal Traceability]
+    C --> E[Interactive PyVis Visualization]
+    C --> F[OWL-RL Semantic Reasoning]
+    C --> G[SHACL Validation]
+    H[OWL Manufacturing Ontology] --> F
+    I[SHACL Constraint Shapes] --> G
+    G --> J[Structured Validation Report]
+```
 
 ## Technologies
 
-- **Python:** Data processing, validation, reporting, and search
-- **RDFLib:** RDF graph construction and querying
-- **SKOS:** Controlled vocabularies and hierarchical classification
-- **Dublin Core:** Standardized metadata properties
-- **SPARQL:** Querying semantic relationships
-- **JSON and CSV:** Metadata schemas and structured datasets
-- **unittest:** Automated validation and graph integrity testing
-- **Git and GitHub:** Version control and project documentation
+| Technology | Application |
+|---|---|
+| Python | Data processing, validation, reporting, and retrieval |
+| RDF / RDFLib | Semantic graph construction and manipulation |
+| Dublin Core | Standardized descriptive metadata |
+| SKOS | Controlled vocabularies and hierarchical classification |
+| SPARQL | Semantic querying and relationship traversal |
+| OWL | Formal ontology modeling |
+| Protégé | Ontology development and inspection |
+| HermiT | Description logic reasoning |
+| OWL-RL | Automated rule-based semantic inference |
+| SHACL / PySHACL | RDF graph constraint validation |
+| PyVis | Interactive knowledge graph visualization |
+| JSON / CSV / Turtle | Metadata definitions, structured datasets, and RDF serialization |
+| unittest | Automated integrity and validation testing |
+| Git / GitHub | Version control and documentation |
 
 ## Key Features
 
 ### 1. Metadata Standardization and Validation
 
-Processes 1,000 synthetic component records through a reproducible Python pipeline.
+Processes 1,000 reproducible synthetic component records through a Python metadata pipeline.
 
-- Standardizes inconsistent category and status values
-- Validates required fields and permitted values
-- Detects duplicate component identifiers
-- Verifies category-subcategory relationships using SKOS
-- Separates valid and invalid records
-- Generates detailed validation reports
+- Standardizes inconsistent metadata values.
+- Validates required fields and permitted values.
+- Detects duplicate component identifiers.
+- Verifies category-subcategory relationships against the SKOS taxonomy.
+- Separates valid and invalid records.
+- Generates record-level validation reports and aggregated quality metrics.
 
-### 2. SKOS Taxonomy and RDF Catalog
+The component metadata specification is maintained in `metadata/schema.json`.
 
-Organizes components into four primary categories:
+### 2. SKOS Controlled Vocabulary and RDF Catalog
 
-- Propulsion
-- Electrical
-- Structural
-- Navigation
+The component taxonomy contains one concept scheme, four top-level categories, and eight subcategories.
 
-Uses RDF and Dublin Core metadata properties to represent component information and SKOS relationships to organize the classification hierarchy.
+| Category | Subcategories |
+|---|---|
+| Propulsion | Electric Motors, Propellers |
+| Electrical | Batteries, Controllers |
+| Structural | Brackets, Hull Panels |
+| Navigation | GPS Systems, Sensors |
 
-The resulting component catalog contains **4,942 RDF triples**.
+SKOS preferred labels and broader/narrower relationships establish consistent classification terminology.
 
-### 3. Interactive Metadata Search
+Validated component records are represented in an RDF catalog containing 4,942 triples. SPARQL-based search functionality supports retrieval by category, manufacturer, and lifecycle status.
 
-Provides a Python command-line interface for searching the component catalog by:
+### 3. Manufacturing Equipment Knowledge Graph
 
-- Category
-- Manufacturer
-- Operational status
+The manufacturing graph models a fictional industrial environment containing:
 
-Search results are retrieved from the RDF graph using SPARQL.
-
-### 4. Manufacturing Equipment Knowledge Graph
-
-Models a fictional manufacturing environment containing:
-
-| Asset type | Count |
+| Entity Type | Count |
 |---|---:|
-| Manufacturing facilities | 1 |
+| Facility | 1 |
 | Production cells | 2 |
 | Machines | 3 |
 | Sensors | 4 |
 | Industrial signals | 4 |
+| Total | 14 |
 
-Custom RDF relationships such as `partOf`, `locatedAt`, and `generatedBy` connect assets and establish their manufacturing context.
+Custom RDF object properties connect industrial signals to their physical manufacturing context.
 
-The equipment graph is stored separately in `metadata/equipment_graph.ttl`.
+```mermaid
+flowchart BT
+    A[Industrial Signal] -->|generatedBy| B[Sensor]
+    B -->|partOf| C[Machine]
+    C -->|partOf / locatedAt| D[Production Cell]
+    D -->|partOf| E[Facility]
+```
 
-### 5. Industrial Signal Traceability
+The equipment graph is maintained separately from the component catalog in `metadata/equipment_graph.ttl`.
 
-Implements a SPARQL-based lookup tool that resolves raw industrial signal identifiers to their associated equipment hierarchy.
+### 4. Industrial Signal Traceability
 
-For example, searching for `PLC4_TT_1142` returns:
+A SPARQL-based lookup tool retrieves the manufacturing context associated with an operational signal name.
 
-| Metadata field | Value |
+Example search:
+
+`PLC4_TT_1142`
+
+| Metadata Field | Retrieved Value |
 |---|---|
-| Signal | PLC4_TT_1142 |
+| Catalog identifier | SIG-001 |
+| Operational signal name | PLC4_TT_1142 |
 | Measurement unit | Celsius |
 | Sensor | Motor Temperature Sensor |
 | Machine | Motor Testing Station |
 | Production cell | Propulsion Assembly Cell |
 | Facility | Maritime Assembly Facility |
 
-This demonstrates how semantic relationships can make otherwise ambiguous industrial data more discoverable and interpretable.
+This demonstrates how semantic relationships can make industrial signal metadata more discoverable and interpretable without duplicating the complete equipment hierarchy in each record.
 
-### 6. Metadata Quality Analytics
+### 5. OWL Ontology and Semantic Reasoning
 
-Generates a quality report summarizing validation results, error frequencies, category distributions, and failure rates.
+A formal manufacturing ontology was developed using Protégé.
 
-Results can also be exported to `data/quality_summary.csv` for additional analysis.
+The ontology defines:
 
-## Project Results
+- Six manufacturing classes.
+- Three object properties.
+- Three datatype properties.
+- Property domains and ranges.
+- Existential restrictions.
+- Class disjointness axioms.
 
-The system processed a reproducible dataset of 1,000 synthetic maritime manufacturing components.
+The ontology distinguishes physical manufacturing assets from industrial signals.
 
-| Metric | Result |
-|---|---:|
-| Total component records | 1,000 |
-| Valid component records | 976 |
-| Invalid component records | 24 |
-| Validation success rate | 97.6% |
-| Component catalog RDF triples | 4,942 |
-| Automated tests | 15 |
+```text
+owl:Thing
+├── PhysicalAsset
+│   ├── Facility
+│   ├── ProductionCell
+│   ├── Machine
+│   └── Sensor
+└── IndustrialSignal
+```
 
-### Data Quality Findings
+The project uses HermiT in Protégé to evaluate ontology semantics and OWL-RL reasoning in Python to demonstrate automated inference.
 
-The validation system detected:
+Reasoning tests verify superclass membership, domain and range inference, and the distinction between physical assets and industrial signals.
 
-- 20 missing required-field errors
-- 16 invalid taxonomy relationships
-- 24 component records containing one or more validation errors
+Ontology file: [`metadata/manufacturing_ontology.ttl`](metadata/manufacturing_ontology.ttl)
+
+### 6. SHACL Graph Validation
+
+SHACL constraints enforce explicitly recorded manufacturing metadata requirements.
+
+| Entity | Validation Requirements |
+|---|---|
+| Physical assets | Exactly one nonempty identifier and label |
+| Facility | No parent asset |
+| Production cell | Exactly one parent facility |
+| Machine | Exactly one parent production cell and matching location |
+| Sensor | Exactly one parent machine |
+| Industrial signal | Identifier, label, measurement unit, and exactly one generating sensor |
+
+The validation engine produces human-readable results and a structured RDF validation report.
+
+Automated tests deliberately introduce invalid relationships, missing metadata, conflicting locations, and incorrect relationship cardinalities to verify constraint enforcement.
+
+The current manufacturing graph conforms to its SHACL shapes with zero validation violations.
+
+OWL and SHACL serve complementary purposes: OWL defines semantic meaning and supports inference, while SHACL evaluates recorded data against explicit requirements.
+
+### 7. Interactive Knowledge Graph Visualization
+
+The manufacturing graph is rendered as an interactive HTML visualization using PyVis.
+
+Visualization features include:
+
+- Hierarchical manufacturing layout.
+- Color-coded entity classifications.
+- Labeled and directed relationships.
+- Interactive metadata tooltips.
+- Entity selection and navigation.
+- Zooming and panning.
+
+**[Launch the Interactive Knowledge Graph](https://jonszuba.github.io/maritime-metadata-catalog/visualizations/equipment_graph.html)**
+
+The visualization can also be generated locally using `src/visualize_graph.py`.
+
+### 8. Metadata Quality Analytics
+
+The component validation pipeline identified 24 records containing one or more validation errors.
+
+Detected errors include:
+
+- 20 missing required-field errors.
+- 16 invalid taxonomy relationships.
 
 Some records contained multiple errors.
 
-| Category | Total records | Invalid records | Failure rate |
+| Category | Total Records | Invalid Records | Failure Rate |
 |---|---:|---:|---:|
 | Electrical | 248 | 11 | 4.44% |
-| Propulsion | 256 | 9 | 3.52% |
 | Navigation | 254 | 3 | 1.18% |
+| Propulsion | 256 | 9 | 3.52% |
 | Structural | 242 | 1 | 0.41% |
+| Total | 1,000 | 24 | 2.40% |
 
-These results reflect deliberately introduced errors in synthetic data, not measurements from a real manufacturing facility.
+The overall component validation pass rate is 97.6%.
 
-## Project Structure
+These metrics reflect deliberately introduced errors in synthetic records, not validation algorithm accuracy or actual manufacturing performance.
+
+## Technical Documentation
+
+The project includes dedicated documentation to support independent maintenance and future development.
+
+| Document | Description |
+|---|---|
+| [Metadata Design](docs/metadata-design.md) | Metadata architecture, standards, taxonomy, ontology, semantic reasoning, and modeling decisions |
+| [Data Dictionary](docs/data-dictionary.md) | Field definitions, identifier conventions, controlled values, RDF mappings, and validation requirements |
+| [Maintenance Guide](docs/maintenance-guide.md) | Installation, operation, troubleshooting, testing, and extension procedures |
+
+## Repository Structure
 
 ```text
 maritime-metadata-catalog/
@@ -144,11 +271,18 @@ maritime-metadata-catalog/
 │   ├── quality_summary.csv
 │   ├── equipment.csv
 │   └── signals.csv
+├── docs/
+│   ├── metadata-design.md
+│   ├── data-dictionary.md
+│   └── maintenance-guide.md
 ├── metadata/
 │   ├── schema.json
 │   ├── taxonomy.ttl
 │   ├── catalog.ttl
-│   └── equipment_graph.ttl
+│   ├── equipment_graph.ttl
+│   ├── manufacturing_ontology.ttl
+│   ├── manufacturing_shapes.ttl
+│   └── shacl_validation_report.ttl
 ├── src/
 │   ├── generate_data.py
 │   ├── clean_data.py
@@ -156,41 +290,51 @@ maritime-metadata-catalog/
 │   ├── validation_rules.py
 │   ├── quality_control.py
 │   ├── build_catalog.py
-│   ├── build_equipment_graph.py
 │   ├── quality_report.py
 │   ├── search.py
-│   └── search_signals.py
+│   ├── build_equipment_graph.py
+│   ├── search_signals.py
+│   ├── reason_ontology.py
+│   ├── validate_graph.py
+│   └── visualize_graph.py
 ├── tests/
 │   ├── test_catalog.py
 │   ├── test_validation.py
-│   └── test_equipment.py
+│   ├── test_equipment.py
+│   ├── test_ontology.py
+│   ├── test_reasoning.py
+│   └── test_shacl.py
+├── visualizations/
+│   └── equipment_graph.html
 ├── requirements.txt
 └── README.md
 ```
 
 ## Installation and Usage
 
-### 1. Clone the repository
+The project was developed using Python 3.14.
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/jonszuba/maritime-metadata-catalog.git
 cd maritime-metadata-catalog
 ```
 
-### 2. Create a virtual environment
+### 2. Create and Activate a Virtual Environment
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 4. Generate and process component data
+### 4. Generate and Process Component Metadata
 
 ```bash
 python src/generate_data.py
@@ -203,19 +347,21 @@ python src/quality_report.py
 
 The data generator uses a fixed random seed to produce reproducible results.
 
-### 5. Build the manufacturing equipment graph
-
-```bash
-python src/build_equipment_graph.py
-```
-
-### 6. Search component metadata
+### 5. Search the Component Catalog
 
 ```bash
 python src/search.py
 ```
 
-### 7. Trace industrial signals
+### 6. Build and Validate the Manufacturing Knowledge Graph
+
+```bash
+python src/build_equipment_graph.py
+python src/validate_graph.py
+python src/reason_ontology.py
+```
+
+### 7. Trace Industrial Signals
 
 ```bash
 python src/search_signals.py
@@ -227,28 +373,62 @@ Example input:
 PLC4_TT_1142
 ```
 
-### 8. Run automated tests
+### 8. Generate the Interactive Visualization
+
+```bash
+python src/visualize_graph.py
+```
+
+Open `visualizations/equipment_graph.html` in a web browser.
+
+### 9. Run Automated Tests
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-The test suite contains 15 tests covering metadata validation, identifier uniqueness, taxonomy relationships, RDF catalog integrity, and manufacturing equipment traceability.
+Expected baseline:
 
-## Future Improvements
+```text
+Ran 30 tests
+
+OK
+```
+
+## Automated Testing
+
+The project includes 30 automated tests covering six areas.
+
+| Test Area | Tests |
+|---|---:|
+| Component catalog integrity | 5 |
+| Component metadata validation | 5 |
+| Manufacturing graph integrity | 5 |
+| OWL ontology compatibility | 5 |
+| Semantic inference | 3 |
+| SHACL constraint validation | 7 |
+| Total | 30 |
+
+Tests cover both conforming and deliberately invalid metadata to verify expected system behavior.
+
+## Limitations and Future Improvements
+
+The current implementation is a demonstration-scale metadata system rather than a production manufacturing platform.
 
 Potential extensions include:
 
-- More comprehensive equipment hierarchy validation
-- Detection of circular equipment relationships
-- Additional metadata provenance and ownership fields
-- Automated data-quality visualization
-- Support for larger and more complex industrial datasets
+- Cross-dataset relationships between component records and manufacturing assets.
+- Manufacturing identifier uniqueness and format validation.
+- Detection of circular equipment relationships.
+- Facility reference consistency checks.
+- Standardized measurement unit vocabularies.
+- Additional metadata provenance, ownership, and governance fields.
+- Integration with larger industrial datasets and metadata catalog platforms.
+
+Further implementation considerations are documented in the metadata design and data dictionary.
 
 ## Project Purpose
 
-This independent project applies information science principles to fictional maritime manufacturing data, emphasizing metadata standardization, semantic modeling, controlled vocabularies, information retrieval, and industrial data contextualization.
+This independent technical portfolio project applies information science principles to manufacturing metadata management, emphasizing controlled vocabularies, semantic interoperability, information retrieval, data quality, ontology development, and maintainable documentation.
 
-It was developed as a technical portfolio project to explore metadata management challenges in manufacturing environments.
-
-All datasets, equipment identifiers, and manufacturing relationships are fictional and do not represent proprietary industrial systems.
+All datasets, equipment identifiers, and manufacturing relationships are fictional and were created for demonstration purposes.
