@@ -913,7 +913,7 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
             
         
 <center>
-<h1></h1>
+<h1>Maritime Manufacturing Knowledge Graph</h1>
 </center>
 
 <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
@@ -932,7 +932,7 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
 
 
         <center>
-          <h1></h1>
+          <h1>Maritime Manufacturing Knowledge Graph</h1>
         </center>
         <style type="text/css">
 
@@ -955,6 +955,109 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
 
 
     <body>
+<div style="
+    background: #0f172a;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid #334155;
+">
+    <p style="
+        text-align: center;
+        color: #cbd5e1;
+        margin-bottom: 20px;
+    ">
+        Interactive RDF knowledge graph of synthetic maritime
+        manufacturing assets and industrial signals.
+        Select or hover over an entity to explore its metadata.
+    </p>
+
+    <div style="
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        font-size: 14px;
+    ">
+        
+        <div style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        ">
+            <span style="
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #ef4444;
+            "></span>
+            Facility
+        </div>
+    
+        <div style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        ">
+            <span style="
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #f59e0b;
+            "></span>
+            Production Cell
+        </div>
+    
+        <div style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        ">
+            <span style="
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #3b82f6;
+            "></span>
+            Machine
+        </div>
+    
+        <div style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        ">
+            <span style="
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #22c55e;
+            "></span>
+            Sensor
+        </div>
+    
+        <div style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        ">
+            <span style="
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #a855f7;
+            "></span>
+            Industrial Signal
+        </div>
+    
+    </div>
+</div>
+
         <div class="card" style="width: 100%">
             
                 <div id="select-menu" class="card-header">
@@ -1049,8 +1152,8 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-001", "label": "PLC4_TT_1142", "shape": "dot", "size": 25, "title": "Name: PLC4_TT_1142\u003cbr\u003eID: SIG-001\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Motor operating temperature\u003cbr\u003eMeasurement unit: Celsius"}, {"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-002", "label": "PLC4_VIB_1143", "shape": "dot", "size": 25, "title": "Name: PLC4_VIB_1143\u003cbr\u003eID: SIG-002\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Motor vibration velocity\u003cbr\u003eMeasurement unit: mm/s"}, {"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-003", "label": "PLC5_POS_2201", "shape": "dot", "size": 25, "title": "Name: PLC5_POS_2201\u003cbr\u003eID: SIG-003\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Robot position measurement\u003cbr\u003eMeasurement unit: mm"}, {"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-004", "label": "PLC6_TT_3301", "shape": "dot", "size": 25, "title": "Name: PLC6_TT_3301\u003cbr\u003eID: SIG-004\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Welding process temperature\u003cbr\u003eMeasurement unit: Celsius"}, {"color": "#3b82f6", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/EQ-002", "label": "Propulsion Assembly Robot", "shape": "dot", "size": 25, "title": "Name: Propulsion Assembly Robot\u003cbr\u003eID: EQ-002\u003cbr\u003eClass: Machine"}, {"color": "#3b82f6", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/EQ-003", "label": "Hull Welding Robot", "shape": "dot", "size": 25, "title": "Name: Hull Welding Robot\u003cbr\u003eID: EQ-003\u003cbr\u003eClass: Machine"}, {"color": "#3b82f6", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/EQ-001", "label": "Motor Testing Station", "shape": "dot", "size": 25, "title": "Name: Motor Testing Station\u003cbr\u003eID: EQ-001\u003cbr\u003eClass: Machine"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-001", "label": "Motor Temperature Sensor", "shape": "dot", "size": 25, "title": "Name: Motor Temperature Sensor\u003cbr\u003eID: SEN-001\u003cbr\u003eClass: Sensor"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-002", "label": "Motor Vibration Sensor", "shape": "dot", "size": 25, "title": "Name: Motor Vibration Sensor\u003cbr\u003eID: SEN-002\u003cbr\u003eClass: Sensor"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-003", "label": "Robot Position Sensor", "shape": "dot", "size": 25, "title": "Name: Robot Position Sensor\u003cbr\u003eID: SEN-003\u003cbr\u003eClass: Sensor"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-004", "label": "Welding Temperature Sensor", "shape": "dot", "size": 25, "title": "Name: Welding Temperature Sensor\u003cbr\u003eID: SEN-004\u003cbr\u003eClass: Sensor"}, {"color": "#f59e0b", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/CELL-002", "label": "Hull Fabrication Cell", "shape": "dot", "size": 25, "title": "Name: Hull Fabrication Cell\u003cbr\u003eID: CELL-002\u003cbr\u003eClass: ProductionCell"}, {"color": "#f59e0b", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/CELL-001", "label": "Propulsion Assembly Cell", "shape": "dot", "size": 25, "title": "Name: Propulsion Assembly Cell\u003cbr\u003eID: CELL-001\u003cbr\u003eClass: ProductionCell"}, {"color": "#ef4444", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/FAC-001", "label": "Maritime Assembly Facility", "shape": "dot", "size": 25, "title": "Name: Maritime Assembly Facility\u003cbr\u003eID: FAC-001\u003cbr\u003eClass: Facility"}]);
-                  edges = new vis.DataSet([{"arrows": "to", "from": "https://example.org/maritime/SIG-001", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-001"}, {"arrows": "to", "from": "https://example.org/maritime/SIG-002", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-002"}, {"arrows": "to", "from": "https://example.org/maritime/SIG-003", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-003"}, {"arrows": "to", "from": "https://example.org/maritime/SIG-004", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-004"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-002", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/CELL-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-001", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/CELL-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-003", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/CELL-002"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-001", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-001"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-002", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-001"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-003", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-002"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-004", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-003"}, {"arrows": "to", "from": "https://example.org/maritime/CELL-002", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/FAC-001"}, {"arrows": "to", "from": "https://example.org/maritime/CELL-001", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/FAC-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-002", "label": "locatedAt", "title": "locatedAt", "to": "https://example.org/maritime/CELL-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-001", "label": "locatedAt", "title": "locatedAt", "to": "https://example.org/maritime/CELL-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-003", "label": "locatedAt", "title": "locatedAt", "to": "https://example.org/maritime/CELL-002"}]);
+                  nodes = new vis.DataSet([{"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-001", "label": "PLC4_TT_1142", "level": 4, "shape": "dot", "size": 25, "title": "Name: PLC4_TT_1142\u003cbr\u003eID: SIG-001\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Motor operating temperature\u003cbr\u003eMeasurement unit: Celsius"}, {"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-002", "label": "PLC4_VIB_1143", "level": 4, "shape": "dot", "size": 25, "title": "Name: PLC4_VIB_1143\u003cbr\u003eID: SIG-002\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Motor vibration velocity\u003cbr\u003eMeasurement unit: mm/s"}, {"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-003", "label": "PLC5_POS_2201", "level": 4, "shape": "dot", "size": 25, "title": "Name: PLC5_POS_2201\u003cbr\u003eID: SIG-003\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Robot position measurement\u003cbr\u003eMeasurement unit: mm"}, {"color": "#a855f7", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SIG-004", "label": "PLC6_TT_3301", "level": 4, "shape": "dot", "size": 25, "title": "Name: PLC6_TT_3301\u003cbr\u003eID: SIG-004\u003cbr\u003eClass: IndustrialSignal\u003cbr\u003eDescription: Welding process temperature\u003cbr\u003eMeasurement unit: Celsius"}, {"color": "#3b82f6", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/EQ-002", "label": "Propulsion Assembly Robot", "level": 2, "shape": "dot", "size": 25, "title": "Name: Propulsion Assembly Robot\u003cbr\u003eID: EQ-002\u003cbr\u003eClass: Machine"}, {"color": "#3b82f6", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/EQ-003", "label": "Hull Welding Robot", "level": 2, "shape": "dot", "size": 25, "title": "Name: Hull Welding Robot\u003cbr\u003eID: EQ-003\u003cbr\u003eClass: Machine"}, {"color": "#3b82f6", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/EQ-001", "label": "Motor Testing Station", "level": 2, "shape": "dot", "size": 25, "title": "Name: Motor Testing Station\u003cbr\u003eID: EQ-001\u003cbr\u003eClass: Machine"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-001", "label": "Motor Temperature Sensor", "level": 3, "shape": "dot", "size": 25, "title": "Name: Motor Temperature Sensor\u003cbr\u003eID: SEN-001\u003cbr\u003eClass: Sensor"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-002", "label": "Motor Vibration Sensor", "level": 3, "shape": "dot", "size": 25, "title": "Name: Motor Vibration Sensor\u003cbr\u003eID: SEN-002\u003cbr\u003eClass: Sensor"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-003", "label": "Robot Position Sensor", "level": 3, "shape": "dot", "size": 25, "title": "Name: Robot Position Sensor\u003cbr\u003eID: SEN-003\u003cbr\u003eClass: Sensor"}, {"color": "#22c55e", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/SEN-004", "label": "Welding Temperature Sensor", "level": 3, "shape": "dot", "size": 25, "title": "Name: Welding Temperature Sensor\u003cbr\u003eID: SEN-004\u003cbr\u003eClass: Sensor"}, {"color": "#f59e0b", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/CELL-002", "label": "Hull Fabrication Cell", "level": 1, "shape": "dot", "size": 25, "title": "Name: Hull Fabrication Cell\u003cbr\u003eID: CELL-002\u003cbr\u003eClass: ProductionCell"}, {"color": "#f59e0b", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/CELL-001", "label": "Propulsion Assembly Cell", "level": 1, "shape": "dot", "size": 25, "title": "Name: Propulsion Assembly Cell\u003cbr\u003eID: CELL-001\u003cbr\u003eClass: ProductionCell"}, {"color": "#ef4444", "font": {"color": "#ffffff"}, "id": "https://example.org/maritime/FAC-001", "label": "Maritime Assembly Facility", "level": 0, "shape": "dot", "size": 25, "title": "Name: Maritime Assembly Facility\u003cbr\u003eID: FAC-001\u003cbr\u003eClass: Facility"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "https://example.org/maritime/SIG-001", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-001"}, {"arrows": "to", "from": "https://example.org/maritime/SIG-002", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-002"}, {"arrows": "to", "from": "https://example.org/maritime/SIG-003", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-003"}, {"arrows": "to", "from": "https://example.org/maritime/SIG-004", "label": "generatedBy", "title": "generatedBy", "to": "https://example.org/maritime/SEN-004"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-002", "label": "partOf / locatedAt", "title": "partOf / locatedAt", "to": "https://example.org/maritime/CELL-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-001", "label": "partOf / locatedAt", "title": "partOf / locatedAt", "to": "https://example.org/maritime/CELL-001"}, {"arrows": "to", "from": "https://example.org/maritime/EQ-003", "label": "partOf / locatedAt", "title": "partOf / locatedAt", "to": "https://example.org/maritime/CELL-002"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-001", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-001"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-002", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-001"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-003", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-002"}, {"arrows": "to", "from": "https://example.org/maritime/SEN-004", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/EQ-003"}, {"arrows": "to", "from": "https://example.org/maritime/CELL-002", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/FAC-001"}, {"arrows": "to", "from": "https://example.org/maritime/CELL-001", "label": "partOf", "title": "partOf", "to": "https://example.org/maritime/FAC-001"}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -1061,43 +1164,7 @@ var tomSelect=function(e,t){return new TomSelect(e,t)}
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {
-    "configure": {
-        "enabled": false
-    },
-    "edges": {
-        "color": {
-            "inherit": true
-        },
-        "smooth": {
-            "enabled": true,
-            "type": "dynamic"
-        }
-    },
-    "interaction": {
-        "dragNodes": true,
-        "hideEdgesOnDrag": false,
-        "hideNodesOnDrag": false
-    },
-    "physics": {
-        "barnesHut": {
-            "avoidOverlap": 0,
-            "centralGravity": 0.3,
-            "damping": 0.09,
-            "gravitationalConstant": -8000,
-            "springConstant": 0.04,
-            "springLength": 220
-        },
-        "enabled": true,
-        "stabilization": {
-            "enabled": true,
-            "fit": true,
-            "iterations": 1000,
-            "onlyDynamicEdges": false,
-            "updateInterval": 50
-        }
-    }
-};
+                  var options = {"layout": {"hierarchical": {"enabled": true, "direction": "UD", "levelSeparation": 150, "nodeSpacing": 250, "treeSpacing": 280, "sortMethod": "hubsize", "blockShifting": true, "edgeMinimization": true, "parentCentralization": true}}, "physics": {"enabled": false}, "edges": {"color": {"color": "#94a3b8", "inherit": false}, "font": {"size": 13, "color": "#cbd5e1", "strokeWidth": 0}, "smooth": {"enabled": true, "type": "cubicBezier", "forceDirection": "vertical", "roundness": 0.4}}, "interaction": {"hover": true, "navigationButtons": true, "keyboard": true}};
 
                   
 
