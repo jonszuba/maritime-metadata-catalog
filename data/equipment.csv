@@ -1,0 +1,11 @@
+equipment_id,name,equipment_type,parent_id,facility_id
+FAC-001,Maritime Assembly Facility,Facility,,
+CELL-001,Propulsion Assembly Cell,Production Cell,FAC-001,FAC-001
+CELL-002,Hull Fabrication Cell,Production Cell,FAC-001,FAC-001
+EQ-001,Motor Testing Station,Machine,CELL-001,FAC-001
+EQ-002,Propulsion Assembly Robot,Machine,CELL-001,FAC-001
+EQ-003,Hull Welding Robot,Machine,CELL-002,FAC-001
+SEN-001,Motor Temperature Sensor,Sensor,EQ-001,FAC-001
+SEN-002,Motor Vibration Sensor,Sensor,EQ-001,FAC-001
+SEN-003,Robot Position Sensor,Sensor,EQ-002,FAC-001
+SEN-004,Welding Temperature Sensor,Sensor,EQ-003,FAC-001

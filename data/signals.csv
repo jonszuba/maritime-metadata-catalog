@@ -1,0 +1,5 @@
+signal_id,signal_name,sensor_id,unit,description
+SIG-001,PLC4_TT_1142,SEN-001,Celsius,Motor operating temperature
+SIG-002,PLC4_VIB_1143,SEN-002,mm/s,Motor vibration velocity
+SIG-003,PLC5_POS_2201,SEN-003,mm,Robot position measurement
+SIG-004,PLC6_TT_3301,SEN-004,Celsius,Welding process temperature
