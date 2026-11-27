@@ -29,7 +29,7 @@ network = Network(
     font_color="#ffffff",
     cdn_resources="in_line",
     select_menu=True,
-    heading="Maritime Manufacturing Knowledge Graph"
+    heading=""
 )
 
 # Assign a color to each manufacturing class
